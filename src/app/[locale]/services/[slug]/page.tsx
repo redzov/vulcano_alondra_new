@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getServiceBySlug, getRelatedServices, allServiceSlugs } from "@/lib/services";
 import ServicePageClient from "./ServicePageClient";
@@ -53,6 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ServicePage({ params }: Props) {
   const { slug, locale } = await params;
+  setRequestLocale(locale);
   const service = getServiceBySlug(slug);
 
   if (!service) {

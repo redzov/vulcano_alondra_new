@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getInfoPageBySlug, allInfoSlugs } from "@/lib/pages";
 import InfoPageClient from "./InfoPageClient";
@@ -35,7 +35,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function InfoPage({ params }: Props) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  setRequestLocale(locale);
   const page = getInfoPageBySlug(slug);
 
   if (!page) {
