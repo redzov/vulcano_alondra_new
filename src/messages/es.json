@@ -1,0 +1,1050 @@
+{
+  "metadata": {
+    "title": "Volcano Teide — Actividades y excursiones en el Teide, Tenerife",
+    "description": "La única web especializada en actividades y excursiones en el Parque Nacional del Teide. Teleférico, senderismo, estrellas, observatorio y más."
+  },
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "activities": "Actividades",
+      "teideToday": "Teide Hoy",
+      "manageBooking": "Gestionar Reserva",
+      "help": "Ayuda",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto"
+    },
+    "bookNow": "Reservar",
+    "menu": "Menú"
+  },
+  "hero": {
+    "title": "Descubre el Lado Más Volcánico de la Naturaleza",
+    "subtitle": "Actividades y excursiones en el Teide, Tenerife",
+    "description": "Bienvenido a la única web especializada en actividades y excursiones en el Parque Nacional del Teide",
+    "searchPlaceholder": "Busca tu experiencia...",
+    "search": "Buscar",
+    "selectExperience": "Busca tu Experiencia...",
+    "allCategories": "Todas las categorías",
+    "dateFrom": "Desde",
+    "dateTo": "Hasta",
+    "bookFrom": "Reserva desde",
+    "manageBooking": "Gestiona tu reserva"
+  },
+  "featured": {
+    "title": "Experiencias Recomendadas",
+    "subtitle": "Nuestras actividades más populares en el Monte Teide",
+    "from": "Desde",
+    "duration": "Duración",
+    "bookNow": "Reservar",
+    "perPerson": "por persona",
+    "items": {
+      "cableCar": {
+        "title": "Teleférico del Teide",
+        "description": "Asciende hasta los 3.555 metros en solo 8 minutos y disfruta de las espectaculares vistas desde la estación superior de La Rambleta.",
+        "price": "23.50",
+        "duration": "~2 hrs",
+        "rating": "4.7"
+      },
+      "sunsetStars": {
+        "title": "Atardecer y Estrellas en el Teide",
+        "description": "Contempla el atardecer desde 3.555 m y observa las estrellas con astrónomos profesionales y telescopios.",
+        "price": "172.00",
+        "duration": "~7 hrs",
+        "rating": "4.9"
+      },
+      "hiking": {
+        "title": "Ascenso al Pico del Teide",
+        "description": "Sube a la cima del pico más alto de España a 3.718 metros con ascenso en teleférico y descenso guiado.",
+        "price": "175.00",
+        "duration": "~5 hrs",
+        "rating": "4.8"
+      }
+    }
+  },
+  "categories": {
+    "title": "Elige Tu Experiencia",
+    "subtitle": "Explora todas las formas de descubrir el Monte Teide",
+    "items": {
+      "cable_car": {
+        "name": "Actividades con Teleférico",
+        "count": "11 actividades",
+        "image": "subcat-69.jpg"
+      },
+      "hiking": {
+        "name": "Rutas de Senderismo",
+        "count": "5 actividades",
+        "image": "subcat-73.jpg"
+      },
+      "stars": {
+        "name": "Excursiones de Estrellas",
+        "count": "6 actividades",
+        "image": "subcat-94.jpg"
+      },
+      "vip": {
+        "name": "Actividades Privadas",
+        "count": "6 actividades",
+        "image": "subcat-96.jpg"
+      },
+      "kids": {
+        "name": "Actividades para Familias",
+        "count": "10 actividades",
+        "image": "subcat-98.jpg"
+      },
+      "observatory": {
+        "name": "Visitas al Observatorio",
+        "count": "2 actividades",
+        "image": "subcat-99.jpg"
+      },
+      "groups": {
+        "name": "Grupos",
+        "count": "7 actividades",
+        "image": "subcat-111.jpg"
+      },
+      "excursions": {
+        "name": "Excursiones por Tenerife",
+        "count": "14 actividades",
+        "image": "subcat-134.jpg"
+      },
+      "independently": {
+        "name": "Por Libre",
+        "count": "11 actividades",
+        "image": "subcat-135.jpg"
+      }
+    }
+  },
+  "servicesPage": {
+    "resultsFound": "{count} actividades encontradas",
+    "noResults": "No se encontraron actividades con tus filtros",
+    "activeFilters": "Filtros activos:",
+    "clearAll": "Borrar todo",
+    "filters": "Filtros",
+    "activities": "Actividades",
+    "languageFilter": "Idioma de las actividades",
+    "priceRange": "Precio",
+    "duration": "Duración",
+    "pickups": "Recogidas",
+    "hotelPickup": "Recogida en hotel incluida",
+    "selfArrival": "Llegada por cuenta propia",
+    "under2h": "Menos de 2 horas",
+    "2to4h": "2–4 horas",
+    "4to8h": "4–8 horas",
+    "over8h": "Más de 8 horas",
+    "transport": "Transporte",
+    "yes": "Sí",
+    "no": "No",
+    "viewMore": "Ver más",
+    "buy": "Comprar",
+    "from": "Desde"
+  },
+  "languages": {
+    "DE": "Alemán",
+    "EN": "Inglés",
+    "ES": "Español",
+    "FR": "Francés",
+    "IT": "Italiano",
+    "NL": "Neerlandés",
+    "PL": "Polaco",
+    "RU": "Ruso"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir Volcano Teide?",
+    "items": {
+      "solar": {
+        "title": "¡100% Solar!",
+        "description": "El teleférico funciona íntegramente con energía solar sin conexión a la red. ¡Cero emisiones!"
+      },
+      "online": {
+        "title": "¡Compra Online!",
+        "description": "Las plazas son limitadas. Reserva tus entradas online y garantiza tu plaza en el Monte Teide."
+      },
+      "cancel": {
+        "title": "Cambios Gratuitos",
+        "description": "Cambios o cancelaciones gratuitas hasta las 18:00 del día anterior a tu reserva."
+      },
+      "sustainable": {
+        "title": "Teide Sostenible",
+        "description": "Estamos comprometidos con la preservación del extraordinario patrimonio natural del Parque Nacional del Teide."
+      }
+    }
+  },
+  "reviews": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "Miles de visitantes han disfrutado de nuestras experiencias",
+    "items": {
+      "review1": {
+        "name": "Sarah M.",
+        "location": "Londres, UK",
+        "rating": "5",
+        "text": "La experiencia del atardecer y estrellas fue absolutamente impresionante. Nuestro guía era increíblemente conocedor y las vistas desde 3.555m fueron inolvidables."
+      },
+      "review2": {
+        "name": "Marco R.",
+        "location": "Milán, Italia",
+        "rating": "5",
+        "text": "Organización perfecta de principio a fin. El viaje en teleférico es imprescindible cuando visitas Tenerife. ¡Recomiendo reservar con antelación!"
+      },
+      "review3": {
+        "name": "Anna K.",
+        "location": "Varsovia, Polonia",
+        "rating": "5",
+        "text": "Hicimos la ruta de senderismo hasta la cima — desafiante pero increíblemente gratificante. Los guías fueron profesionales y el paisaje es de otro mundo."
+      },
+      "review4": {
+        "name": "Thomas B.",
+        "location": "Berlín, Alemania",
+        "rating": "4",
+        "text": "Gran experiencia en el observatorio. Visita muy informativa y vistas increíbles del cielo nocturno. Me encantaría volver."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Mantente Informado",
+    "subtitle": "Suscríbete para recibir las últimas noticias y ofertas exclusivas de Volcano Teide",
+    "placeholder": "Tu dirección de email",
+    "subscribe": "Suscribirse",
+    "privacy": "Respetamos tu privacidad. Puedes darte de baja en cualquier momento."
+  },
+  "footer": {
+    "customerService": {
+      "title": "Atención al Cliente",
+      "manageBooking": "Gestionar Tu Reserva",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes",
+      "email": "info@volcanoteide.com"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "La Empresa",
+      "workWithUs": "Trabaja Con Nosotros",
+      "agencies": "Agencias de Viajes",
+      "sustainability": "Teide Sostenible"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Condiciones Generales",
+      "privacy": "Política de Privacidad",
+      "cookies": "Política de Cookies",
+      "csr": "Responsabilidad Social Corporativa"
+    },
+    "social": {
+      "title": "Síguenos"
+    },
+    "certifications": {
+      "official": "Web Oficial",
+      "bestChoice": "Mejor Elección"
+    },
+    "copyright": "Teleférico del Pico del Teide S.A.",
+    "touristId": "ID Turístico: I-003662.1",
+    "activeTourism": "Turismo Activo: TA-4-0026247",
+    "securePayment": "Pago Seguro"
+  },
+  "common": {
+    "backToTop": "Volver arriba",
+    "readMore": "Leer más",
+    "seeAll": "Ver todo",
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "close": "Cerrar"
+  },
+  "services": {
+    "teide-cable-car": {
+      "title": "Entradas Online para el Teleférico del Teide",
+      "shortDescription": "Ahorra tiempo con acceso directo a cabina. Consigue tus entradas oficiales del Teleférico del Teide online — ¡Sin colas!",
+      "description": "Sube en teleférico a la cima del Teide y disfruta de increíbles vistas panorámicas de Tenerife y las islas vecinas desde la estación superior de La Rambleta (3.555 m).",
+      "fullDescription": "El Teleférico del Teide te lleva desde la estación base a 2.356 metros hasta la estación superior de La Rambleta, a 3.555 metros sobre el nivel del mar, en solo 8 minutos. Desde la cima, podrás disfrutar de espectaculares vistas de la isla de Tenerife y, en días despejados, de las islas vecinas de La Gomera, El Hierro, La Palma y Gran Canaria.\n\nEl teleférico es el único en un parque nacional en Europa alimentado íntegramente por energía solar, lo que lo convierte en una experiencia de cero emisiones. En la estación superior, puedes recorrer dos senderos de miradores: el sendero al mirador de Pico Viejo (con vistas al antiguo cráter) y el sendero al mirador de La Fortaleza.\n\nLa estancia en la estación superior está limitada a una hora. Los visitantes con permiso de acceso al cráter pueden ampliar este tiempo para completar el ascenso al pico a 3.718 metros.\n\nOpcionalmente, puedes añadir una visita guiada al mirador de Pico Viejo con guía en español o inglés, o una audioguía Teide Legend para una experiencia autoguiada.\n\nCon tu entrada al teleférico se incluye acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes.",
+      "highlights": {
+        "0": "Entradas para ascender al pico más alto de España en teleférico",
+        "1": "Disfruta de espectaculares vistas del Parque Nacional del Teide",
+        "2": "Elige entre tres espectaculares senderos para caminar en las alturas. El sendero que lleva a la cima requiere un permiso emitido por el Parque Nacional.",
+        "3": "Con tu entrada online no te quedarás sin plaza para subir al Teide",
+        "4": "La visita guiada a Pico Viejo no es apta para personas con problemas de movilidad ni niños menores de 5 años.",
+        "5": "Disfruta de la exposición «Ciencia y Leyenda» en el Centro de Visitantes del Teleférico del Teide (disponible en español e inglés).",
+        "6": "Al reservar la entrada con audioguía, podrás utilizar la audioguía digital Teide Legend del Parque Nacional del Teide para Android e iOS, que ofrece información general sobre el parque, sus rutas de acceso por carretera y los senderos del Teide que se pueden recorrer a pie en las estaciones base y superior. También incluye todo el contenido de la exposición «Ciencia y Leyenda», disponible en los 8 idiomas de la audioguía."
+      },
+      "includes": {
+        "0": "Entradas con sesión asignada",
+        "1": "Entradas + Visita guiada al mirador de Pico Viejo (opcional - con guía en español o inglés)",
+        "2": "Entradas + Audioguía Teide Legend (opcional - con posibilidad de descarga en dispositivo Android o iOS para una experiencia sin contacto)",
+        "3": "Acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes (incluido en tu entrada de teleférico)"
+      },
+      "notIncluded": {
+        "0": "Permiso para ascender al pico del Teide",
+        "1": "Permiso para ascender o descender a pie por los senderos hasta la estación superior",
+        "2": "Guía en español o inglés, o audioguía digital Teide Legend (si solo reservas la entrada de teleférico)",
+        "3": "Acceso para visitantes con discapacidad física o movilidad reducida"
+      },
+      "restrictions": {
+        "0": "Es obligatorio usar calzado adecuado, es decir, es imprescindible llevar calzado cerrado de montaña o deportivo con suela antideslizante de alto agarre. Por razones de seguridad, está expresamente prohibido subir en teleférico con zapatos de tacón, cuñas, plataformas, calzado acuático/de playa, calzado de suela plana o calzado abierto.",
+        "1": "Las personas con problemas cardíacos, las mujeres embarazadas y los niños menores de 3 años no pueden subir en teleférico debido al riesgo que la altitud supone para su salud. Si tiene algún problema de salud, consulte a su médico antes de planificar su visita o de reservar sus entradas para el Teleférico del Teide.",
+        "2": "Las personas con diversidad funcional física o motora no pueden realizar el ascenso en teleférico, ya que, debido a las condiciones técnicas del Parque Nacional, no se puede garantizar su evacuación segura en el tiempo permitido por la normativa.",
+        "3": "Es fundamental tener en cuenta que, en caso de avería del sistema de teleférico por razones técnicas imprevistas, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados.",
+        "4": "No se permiten mascotas, excepto perros guía y perros de terapia.",
+        "5": "Cualquier persona que no disponga del permiso obligatorio para descender a pie por uno de los senderos que lo requieran, es decir, PNT 07 Montaña Blanca - La Rambleta, PNT 09 Teide - Pico Viejo - Mirador de las Narices del Teide, PNT 23 Regatones Negros, PNT 28 Chafarí, no podrá utilizar el servicio de solo subida.",
+        "6": "Nos reservamos el derecho de admisión. Para más información, consulte las normas de acceso al teleférico."
+      },
+      "importantInfo": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Protégete de la insolación.",
+        "2": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "3": "Lleva abundante agua en las caminatas."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Protégete de la insolación.",
+        "2": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "3": "Lleva abundante agua en las caminatas."
+      }
+    },
+    "teide-tour-with-cable-car": {
+      "title": "Excursión al Teide con Entradas de Teleférico",
+      "shortDescription": "Excursión al Teide con entradas de teleférico ida y vuelta. Disfruta del paisaje volcánico de Tenerife de forma sostenible, con guía, audioguía digital y transporte.",
+      "description": "Disfruta de una excursión guiada de día completo al Teide que incluye recogida en hotel, subida en teleférico y rutas a pie por el Parque Nacional.",
+      "fullDescription": "Esta es la excursión más completa al Teide, que combina un recorrido guiado en autobús por el Parque Nacional del Teide con una subida en teleférico hasta la zona de la cima a 3.555 metros.\n\nEl tour comienza con la recogida en tu hotel y te lleva a través del impresionante paisaje volcánico de Las Cañadas del Teide. Tu guía te explicará la geología, la flora y la historia de este lugar declarado Patrimonio de la Humanidad por la UNESCO.\n\nEn la estación base, subirás en teleférico hasta la estación superior de La Rambleta, donde podrás disfrutar de impresionantes vistas panorámicas. Tras el descenso, visitarás las famosas formaciones rocosas de los Roques de García y recorrerás el corto sendero alrededor de estos emblemáticos pilares volcánicos.\n\nLa excursión también incluye una parada en un restaurante tradicional donde podrás disfrutar de la cocina canaria local (comida no incluida en el precio).\n\nEsta es la opción perfecta para quienes desean vivir lo mejor del Teide sin tener que organizar transporte ni logística por su cuenta.",
+      "highlights": {
+        "0": "Excursión al Teide desde el norte de Tenerife, el sur de Tenerife y el área metropolitana de Santa Cruz de Tenerife y Candelaria + Teleférico con audioguía digital Teide Legend y guía",
+        "1": "La forma más sostenible de visitar el Teide: en transporte colectivo",
+        "2": "Disfruta de la exposición «Ciencia y Leyenda» en el Centro de Visitantes del Teleférico del Teide"
+      },
+      "includes": {
+        "0": "Entrada de Teleférico del Teide ida y vuelta con audioguía digital Teide Legend para Android e iOS",
+        "1": "Guía oficial en español, inglés, alemán, italiano, neerlandés y francés",
+        "2": "Transporte desde el norte y el sur de Tenerife y desde el área metropolitana de Santa Cruz de Tenerife y Candelaria para visitar el Teide de forma sostenible",
+        "3": "Acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes (incluido en tu entrada de teleférico y disponible en 8 idiomas con la audioguía Teide Legend)"
+      },
+      "notIncluded": {
+        "0": "Comida y/o bebidas (puedes traer tu propio aperitivo o comprarlo en nuestro restaurante-cafetería)",
+        "1": "Permiso para acceder al cráter del Teide emitido por el Parque Nacional",
+        "2": "Guía en idioma distinto del español, inglés, alemán, francés, neerlandés e italiano",
+        "3": "Acceso para visitantes con discapacidad física o movilidad reducida"
+      },
+      "restrictions": {
+        "0": "Es obligatorio usar calzado adecuado, es decir, es imprescindible llevar calzado cerrado de montaña o deportivo con suela antideslizante de alto agarre. Por razones de seguridad, está expresamente prohibido subir en teleférico con zapatos de tacón, cuñas, plataformas, calzado acuático/de playa, calzado de suela plana o calzado abierto.",
+        "1": "Las personas con afecciones cardiovasculares, las mujeres embarazadas y los niños menores de 3 años no pueden subir en el Teleférico del Teide debido al riesgo que la altitud supone para su salud.",
+        "2": "Las personas con diversidad funcional física o motora no pueden realizar el ascenso en teleférico, ya que, debido a las condiciones técnicas del Parque Nacional, no se puede garantizar su evacuación segura en el tiempo permitido por la normativa.",
+        "3": "Es fundamental tener en cuenta que, en caso de avería del sistema del Teleférico del Teide por razones técnicas imprevistas, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados.",
+        "4": "No se permiten maletas ni bolsas de gran tamaño.",
+        "5": "No se permiten mascotas, excepto perros guía y perros de terapia.",
+        "6": "Nos reservamos el derecho de admisión. Para más información, consulte las normas de acceso al teleférico."
+      },
+      "importantInfo": {
+        "0": "La estancia en la estación superior está limitada a una hora.",
+        "1": "Es necesario presentar la confirmación de la reserva, impresa o en el dispositivo móvil.",
+        "2": "Descarga la audioguía Teide Legend en tu dispositivo Android o Apple. Solo necesitas usar el código de reserva de tu Excursión al Teide con Entradas de Teleférico para descargar la guía de forma rápida y sencilla y disfrutar de una experiencia sin contacto."
+      },
+      "prepare": {
+        "0": "Entrada de Teleférico del Teide ida y vuelta con audioguía digital Teide Legend para Android o iOS",
+        "1": "Guía oficial en español, inglés, alemán o francés",
+        "2": "Transporte desde la zona de Playa Paraíso y Los Gigantes para visitar el Teide de forma sostenible",
+        "3": "Acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes (incluido en tu entrada de teleférico y disponible en 8 idiomas con la audioguía Teide Legend)"
+      }
+    },
+    "teide-tour-without-cable-car": {
+      "title": "Excursión al Teide sin Teleférico",
+      "shortDescription": "Excursión al Teide sin teleférico, con guía, transporte y audioguía Teide Legend. Visita el Parque Nacional del Teide de forma sostenible.",
+      "description": "Una excursión guiada por el Parque Nacional del Teide sin la subida en teleférico — perfecta para familias y quienes prefieren explorar a menor altitud.",
+      "fullDescription": "Esta excursión guiada te lleva al corazón del Parque Nacional del Teide sin subir en el teleférico, lo que la hace ideal para familias con niños pequeños y visitantes que prefieren permanecer a menor altitud.\n\nEl tour incluye un recorrido panorámico a través de la caldera de Las Cañadas, una caminata guiada por los Roques de García (uno de los lugares más fotografiados de Tenerife) y una visita a la exposición Teide Legend en el Centro de Visitantes.\n\nTu guía multilingüe te explicará la geología volcánica, la flora única y las leyendas guanches que rodean al Teide. También se realizará una parada en un restaurante local donde podrás probar platos tradicionales canarios (comida no incluida).\n\nEsta es una excelente introducción al Parque Nacional del Teide y su extraordinaria belleza natural, accesible para visitantes de todas las edades y niveles de forma física.",
+      "highlights": {
+        "0": "Excursión al Teide sin entrada de teleférico con salidas desde el norte y el sur de Tenerife, y el área metropolitana de Santa Cruz de Tenerife y Candelaria",
+        "1": "Descubre el Teide de forma sostenible con transporte colectivo y guía",
+        "2": "Incluye la audioguía digital Teide Legend, disponible para dispositivos Android e iOS, con información sobre el Parque Nacional del Teide",
+        "3": "Visita la exposición «Ciencia y Leyenda» en el Centro de Visitantes del Teleférico del Teide, donde también encontrarás una tienda oficial de recuerdos y la cafetería-restaurante más alta de España, y disfruta de la visita en tu propio idioma con la audioguía Teide Legend incluida en tu reserva."
+      },
+      "includes": {
+        "0": "Guía oficial en español, alemán, inglés, francés, italiano o neerlandés",
+        "1": "Transporte desde el norte y el sur de Tenerife y desde el área metropolitana de Santa Cruz de Tenerife y Candelaria para visitar el Teide de forma sostenible",
+        "2": "Audioguía digital Teide Legend para Android e iOS, disponible en español, inglés, alemán, francés, italiano, ruso, polaco y neerlandés",
+        "3": "Acceso a la exposición «Ciencia y Leyenda» en el Centro de Visitantes del Teleférico del Teide, con explicaciones en 8 idiomas con la audioguía Teide Legend"
+      },
+      "notIncluded": {
+        "0": "Comida y/o bebidas (puedes traer tu propio aperitivo o comprarlo en nuestro restaurante-cafetería)",
+        "1": "Entrada de Teleférico del Teide",
+        "2": "Guía en idioma distinto del español, alemán, inglés, francés e italiano"
+      },
+      "restrictions": {
+        "0": "No se permiten maletas ni bolsas de gran tamaño.",
+        "1": "No se permiten mascotas en el transporte colectivo ni en el Centro de Visitantes del Teleférico."
+      },
+      "importantInfo": {
+        "0": "Es necesario presentar la confirmación de la reserva, impresa o en el dispositivo móvil.",
+        "1": "Descarga la audioguía Teide Legend en tu dispositivo Android o Apple. Solo necesitas usar el código de reserva de tu Excursión al Teide sin teleférico + audioguía para descargar la guía de forma rápida y sencilla y disfrutar de una experiencia sin contacto."
+      },
+      "prepare": {
+        "0": "Transporte desde Playa Paraíso y Los Gigantes para visitar el Teide de forma sostenible",
+        "1": "Guía oficial en español, inglés, alemán o francés",
+        "2": "Audioguía digital Teide Legend para Android e iOS, disponible en español, inglés, alemán, francés, italiano, ruso, polaco y neerlandés",
+        "3": "Acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes, con explicaciones en 8 idiomas con la audioguía Teide Legend."
+      }
+    },
+    "sunset-cable-car": {
+      "title": "Teleférico del Teide al atardecer",
+      "shortDescription": "Disfruta del atardecer más exclusivo de Tenerife, a 3.555 m sobre el nivel del mar, con nuestro Tour al Atardecer en el Teide. Asciende en un teleférico fuera de horario al atardecer.",
+      "description": "Vive la magia del atardecer desde la cima del pico más alto de España con acceso exclusivo al teleférico en horario de tarde.",
+      "fullDescription": "Esta experiencia exclusiva te da acceso al Teleférico del Teide a última hora de la tarde, después de que haya finalizado el servicio regular, lo que te permite contemplar la puesta de sol desde 3.555 metros sobre el nivel del mar — uno de los miradores más espectaculares del mundo.\n\nAl ponerse el sol, serás testigo de la famosa «Sombra del Teide» — la sombra triangular que el volcán proyecta sobre el mar hacia las islas vecinas. Los colores del cielo se transforman del naranja y rosa al púrpura intenso, creando una atmósfera verdaderamente mágica.\n\nEn la estación superior, un guía Starlight te acompañará hasta el mirador de Pico Viejo, donde aprenderás sobre la geología del cráter volcánico mientras disfrutas del panorama al atardecer.\n\nTras la puesta de sol, descenderás en teleférico mientras cae la noche sobre el Parque Nacional. Esta es una experiencia única que muy pocos visitantes tienen la oportunidad de disfrutar, ya que el teleférico normalmente cierra antes del atardecer.\n\nLas plazas están estrictamente limitadas para garantizar una experiencia exclusiva y sin aglomeraciones.",
+      "highlights": {
+        "0": "Asciende en teleférico hasta los 3.555 m de altitud fuera de las horas habituales de funcionamiento",
+        "1": "Prepárate para quedarte asombrado con el espectáculo de la sombra del Teide proyectada sobre el mar",
+        "2": "Admira el magnífico atardecer del Teide desde el sendero del mirador de Pico Viejo divisando las islas de La Gomera, La Palma y El Hierro en el horizonte",
+        "3": "Completa la actividad del Teleférico del Teide al atardecer con observación de estrellas reservando Sunset & Stars (Atardecer y Estrellas en el Teide)."
+      },
+      "includes": {
+        "0": "Entrada de Teleférico del Teide ida y vuelta (máximo 90 personas)",
+        "1": "Acceso al sendero del mirador de Pico Viejo"
+      },
+      "notIncluded": {
+        "0": "Transporte",
+        "1": "Observación astronómica",
+        "2": "Guía acompañante",
+        "3": "Acceso para visitantes con discapacidad física o movilidad reducida"
+      },
+      "restrictions": {
+        "0": "Es obligatorio usar calzado adecuado, es decir, es imprescindible llevar calzado cerrado de montaña o deportivo con suela antideslizante de alto agarre. Por razones de seguridad, está expresamente prohibido subir en teleférico con zapatos de tacón, cuñas, plataformas, calzado acuático/de playa, calzado de suela plana o calzado abierto.",
+        "1": "Dado que el Tour al Atardecer en el Teide incluye un trayecto en el Teleférico del Teide, las personas con problemas cardíacos y las mujeres embarazadas no pueden participar debido al riesgo que la altitud supone para su salud. Si tiene algún problema de salud, le recomendamos consultar a su médico antes de planificar su visita.",
+        "2": "No se permitirá el acceso a ninguna persona que lleve calzado abierto (sandalias), pantalón corto o manga corta. Es imprescindible ir vestido adecuadamente, ya que la actividad se realizará a bajas temperaturas. Para más información, consulte la sección «Prepara tu visita».",
+        "3": "Los niños menores de 8 años no pueden participar en esta actividad con el Teleférico para ver el atardecer en el Teide.",
+        "4": "Las personas con diversidad funcional física o motora no pueden realizar el ascenso en teleférico, ya que, debido a las condiciones técnicas del Parque Nacional, no se puede garantizar su evacuación segura en el tiempo permitido por la normativa.",
+        "5": "Es fundamental tener en cuenta que, en caso de avería del sistema de teleférico por razones técnicas imprevistas, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados.",
+        "6": "No se permiten mascotas, excepto perros guía y perros de terapia.",
+        "7": "Nos reservamos el derecho de admisión. Para más información, consulte las normas de acceso al teleférico."
+      },
+      "importantInfo": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "2": "Lleva abundante agua en las caminatas."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "2": "Lleva abundante agua en las caminatas."
+      }
+    },
+    "sunset-and-stars": {
+      "title": "Sunset & Stars",
+      "shortDescription": "Excursión guiada al Teide de noche (atardecer y estrellas) que incluye subida en teleférico, cena y observación de estrellas con telescopios de largo alcance.",
+      "description": "Combina un atardecer en teleférico en la cima con una experiencia de observación de estrellas — la actividad nocturna más completa en el Teide.",
+      "fullDescription": "Esta es nuestra experiencia nocturna más exclusiva en el Teide, que combina dos momentos inolvidables: el atardecer en la cima y la observación de estrellas con astrónomos profesionales.\n\nLa experiencia comienza con la recogida en tu hotel y el transporte hasta la estación base del Teleférico del Teide. Subirás en teleférico hasta la estación superior a 3.555 metros, donde un guía Starlight te acompañará hasta el mirador de Pico Viejo para contemplar la puesta de sol — una experiencia considerada entre las mejores del mundo.\n\nA medida que oscurece el cielo, serás testigo de la famosa «Sombra del Teide» extendiéndose sobre el mar, y las primeras estrellas comenzarán a aparecer. Tras descender en teleférico, comienza la segunda parte de la velada: una sesión profesional de observación astronómica.\n\nCon telescopios de largo alcance y guiados por astrónomos expertos certificados por la Starlight Foundation, observarás planetas, nebulosas, cúmulos estelares y galaxias. El Parque Nacional del Teide cuenta con la certificación de Destino Turístico Starlight, que lo acredita como uno de los mejores lugares del mundo para la observación de estrellas.\n\nLa cena está incluida: una comida tradicional canaria en un restaurante local.\n\nEsta experiencia está disponible en inglés y español.",
+      "highlights": {
+        "0": "Excursión guiada al Teide de noche, disponible con transporte",
+        "1": "Disfruta del espectáculo de la sombra del Teide desde las terrazas-mirador del Teleférico",
+        "2": "Admira el espléndido atardecer del Teide desde el sendero al mirador de Pico Viejo y las impresionantes vistas de algunas de las Islas Canarias",
+        "3": "Contempla el cielo nocturno del Teide y observa las estrellas a simple vista o con telescopio en compañía de nuestros guías Starlight"
+      },
+      "includes": {
+        "0": "Transporte",
+        "1": "Entrada para el Teleférico al atardecer para un máximo de 90 personas divididas en diferentes grupos lingüísticos",
+        "2": "Guía en español o inglés",
+        "3": "Cena (estilo picnic)",
+        "4": "Observación de estrellas en el Teide con telescopios de largo alcance en compañía de guías Starlight"
+      },
+      "notIncluded": {
+        "0": "Una bebida para brindar",
+        "1": "Visita al Observatorio del Teide",
+        "2": "Guía en idioma distinto del español o el inglés",
+        "3": "Acceso para visitantes con discapacidad física o movilidad reducida"
+      },
+      "restrictions": {
+        "0": "Es obligatorio usar calzado adecuado, es decir, es imprescindible llevar calzado cerrado de montaña o deportivo con suela antideslizante de alto agarre. Por razones de seguridad, está expresamente prohibido subir en teleférico con zapatos de tacón, cuñas, plataformas, calzado acuático/de playa, calzado de suela plana o calzado abierto.",
+        "1": "Las personas con problemas cardíacos y las mujeres embarazadas no pueden subir en teleférico debido al riesgo para su salud.",
+        "2": "No se permitirá el acceso a ninguna persona que lleve calzado abierto (sandalias), pantalón corto o manga corta. Es imprescindible ir vestido adecuadamente, ya que la actividad se realizará a bajas temperaturas. Para más información, consulte la sección «Prepara tu visita».",
+        "3": "Los niños menores de 8 años no pueden participar en este Tour al Atardecer en el Teide.",
+        "4": "Dado que la excursión Atardecer y Estrellas - Teide de Noche incluye un trayecto en teleférico, las personas con problemas cardíacos y las mujeres embarazadas no pueden participar debido al riesgo que la altitud supone para su salud.",
+        "5": "Las personas con problemas de salud deben consultar a su médico antes de realizar el Tour Atardecer y Estrellas - Teide de Noche.",
+        "6": "Las personas con diversidad funcional física o motora no pueden realizar el ascenso en teleférico, ya que, debido a las condiciones técnicas del Parque Nacional, no se puede garantizar su evacuación segura en el tiempo permitido por la normativa.",
+        "7": "Es fundamental tener en cuenta que, en caso de avería del sistema de teleférico por razones técnicas imprevistas, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados.",
+        "8": "No se permiten mascotas, excepto perros guía y perros de terapia.",
+        "9": "Nos reservamos el derecho de admisión. Para más información, consulte las normas de acceso al teleférico."
+      },
+      "importantInfo": {
+        "0": "Esta completa excursión Atardecer y Estrellas - Teide de Noche incluye una caminata de 40 minutos en ambos sentidos de dificultad media-baja, por lo que es necesario estar en buena forma física.",
+        "1": "Si el sendero al mirador de Pico Viejo está cerrado por hielo o nieve el día de tu excursión al Teide de noche, puedes prescindir de la caminata a Pico Viejo y disfrutar igualmente del hermoso atardecer del Teide desde La Rambleta."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo cómoda y calzado adecuado.",
+        "1": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "2": "Lleva abundante agua en las caminatas."
+      }
+    },
+    "astronomical-observation": {
+      "title": "Observación astronómica en el Teide",
+      "shortDescription": "Disfruta de una experiencia de observación de estrellas en el Teide de noche, con telescopios profesionales, dirigida por guías astronómicos certificados.",
+      "description": "Una experiencia guiada de observación de estrellas a los pies del Teide, uno de los mejores lugares del mundo para la observación astronómica.",
+      "fullDescription": "El Parque Nacional del Teide cuenta con la prestigiosa certificación de Destino Turístico Starlight, que lo acredita como uno de los mejores lugares del mundo para la observación de estrellas. Esta experiencia aprovecha al máximo estas condiciones excepcionales.\n\nDirigida por astrónomos expertos certificados por la Starlight Foundation, explorarás el cielo nocturno utilizando telescopios profesionales de largo alcance. Observarás planetas, la Luna, nebulosas, cúmulos estelares y — según la estación — galaxias y otros objetos del cielo profundo.\n\nLos guías ofrecen fascinantes explicaciones sobre lo que estás observando, la mitología detrás de las constelaciones y la ciencia del cosmos. La sesión incluye el uso de punteros láser para identificar constelaciones y una breve introducción a la astrofotografía.\n\nLa observación tiene lugar en el aparcamiento de la estación base del teleférico a 2.356 metros de altitud, lejos de la contaminación lumínica y rodeado del paisaje volcánico sobrenatural del Parque Nacional.\n\nDisponible en inglés, español y francés.",
+      "highlights": {
+        "0": "Utiliza equipamiento profesional durante una experiencia de observación de estrellas en el Teide de noche",
+        "1": "Deja que guías astronómicos certificados te desvelen los misterios del cielo",
+        "2": "Disfruta de una experiencia única de observación de estrellas en el Teide entre volcanes",
+        "3": "Nuestra experiencia de observación de estrellas en Tenerife se realiza en el aparcamiento junto a la estación base del Teleférico a 2.356 m"
+      },
+      "includes": {
+        "0": "Observaciones profesionales del Universo",
+        "1": "Telescopios de largo alcance",
+        "2": "Guía Starlight en español, inglés o francés"
+      },
+      "notIncluded": {
+        "0": "Transporte",
+        "1": "Guía Starlight en idioma distinto del español, inglés o francés"
+      },
+      "restrictions": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Si tiene problemas de salud, consulte a su médico antes de realizar esta actividad.",
+        "2": "Lleva abundante agua en las caminatas."
+      },
+      "importantInfo": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Si tiene problemas de salud, consulte a su médico antes de realizar esta actividad.",
+        "2": "Lleva abundante agua en las caminatas."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Si tiene problemas de salud, consulte a su médico antes de realizar esta actividad.",
+        "2": "Lleva abundante agua en las caminatas."
+      }
+    },
+    "hiking-teide-with-cable-car": {
+      "title": "Ascenso al Cráter del Teide con ayuda del Teleférico",
+      "shortDescription": "Excursión guiada para alcanzar el cráter del Teide. Ascender a la cima del Teide es más fácil con la ayuda del teleférico para realizar parte del ascenso.",
+      "description": "La experiencia definitiva en el Teide: alcanza la cima del pico más alto de España a 3.718 m con teleférico y senderismo guiado.",
+      "fullDescription": "Esta es la experiencia más emblemática del Teide: ascender hasta la cima del pico más alto de España a 3.718 metros sobre el nivel del mar. La actividad combina una subida en teleférico hasta La Rambleta (3.555 m) con una caminata guiada por el sendero número 10 hasta el cráter del volcán.\n\nLa caminata desde La Rambleta hasta el pico cubre aproximadamente 600 metros de distancia y 163 metros de desnivel positivo. Aunque corto, el sendero es exigente debido a la altitud y el terreno empinado y rocoso. El esfuerzo se ve recompensado con extraordinarias vistas de 360° desde la cima — en días despejados puedes ver todas las Islas Canarias.\n\nEn la cima, verás el cráter volcánico con sus fumarolas de azufre, sentirás el calor que emana del suelo y te situarás en el punto más alto de España y de las islas atlánticas.\n\nSe requiere un permiso especial del Parque Nacional del Teide para acceder al sendero del cráter — este permiso está incluido en tu reserva. Nuestros guías te acompañarán durante toda la caminata, explicándote la geología, vulcanología e historia natural de este lugar extraordinario.\n\nLa recogida y regreso al hotel, el transporte y las entradas del teleférico están incluidos.",
+      "highlights": {
+        "0": "Vive tu sueño de subir al Teide y alcanzar la cima más alta de España (3.715 m)",
+        "1": "Accede al cráter del Teide con un permiso especial del Parque Nacional. Reserva sujeta a la obtención del permiso del Pico del Teide.",
+        "2": "Disfruta de espectaculares vistas del parque y las Islas Canarias vecinas",
+        "3": "Asciende y desciende cómodamente en teleférico",
+        "4": "Solo para personas con buena salud (véanse las Restricciones)",
+        "5": "Disfruta de la exposición «Ciencia y Leyenda» en el Centro de Visitantes del Teleférico del Teide."
+      },
+      "includes": {
+        "0": "Permiso especial del Parque para el sendero al pico del Teide",
+        "1": "Un guía en español o inglés que te desvelará todos los secretos del volcán",
+        "2": "Entrada de Teleférico del Teide ida y vuelta",
+        "3": "Traslado para grupos reducidos desde el norte y el sur de la isla",
+        "4": "Acceso gratuito a la exposición «Ciencia y Leyenda» en el Centro de Visitantes (incluido en tu entrada de teleférico)"
+      },
+      "notIncluded": {
+        "0": "Comida y bebidas",
+        "1": "Guía en idioma distinto del español o el inglés",
+        "2": "Acceso para visitantes con discapacidad física o movilidad reducida"
+      },
+      "restrictions": {
+        "0": "Es obligatorio usar calzado adecuado, es decir, es imprescindible llevar calzado cerrado de montaña o deportivo con suela antideslizante de alto agarre. Por razones de seguridad, está expresamente prohibido subir en teleférico con zapatos de tacón, cuñas, plataformas, calzado acuático/de playa, calzado de suela plana o calzado abierto.",
+        "1": "Los niños menores de 6 años, las mujeres embarazadas y las personas con problemas cardíacos no pueden participar en esta excursión al Teide con teleférico debido al riesgo que la altitud supone para su salud.",
+        "2": "La excursión al pico del Teide con teleférico no es recomendable para personas con movilidad reducida o lesiones.",
+        "3": "Si tiene problemas de salud, debe consultar a su médico antes de realizar este senderismo.",
+        "4": "Las personas con diversidad funcional física o motora no pueden realizar el ascenso en teleférico, ya que, debido a las condiciones técnicas del Parque Nacional, no se puede garantizar su evacuación segura en el tiempo permitido por la normativa.",
+        "5": "Para acceder al sendero del pico es obligatorio llevar calzado cerrado de montaña. A quien no lleve este tipo de calzado se le denegará el acceso al sendero.",
+        "6": "Es fundamental tener en cuenta que, en caso de avería del sistema de teleférico por razones técnicas imprevistas, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados.",
+        "7": "No se permiten mascotas, excepto perros guía y perros de terapia.",
+        "8": "No se permiten maletas ni bolsas de gran tamaño.",
+        "9": "En caso de que los senderos estén cerrados por hielo o nieve, se permitirá el acceso acompañado de tu guía, con la condición estricta de que lleves el equipamiento necesario: ropa técnica, crampones y piolets. Si no dispones del equipamiento necesario, puedes adquirirlo en la tienda oficial del Centro de Visitantes del Teleférico del Teide.",
+        "10": "Nos reservamos el derecho de admisión. Para más información, consulte las normas de acceso al teleférico."
+      },
+      "importantInfo": {
+        "0": "Ten en cuenta que no podemos confirmar tu reserva de la actividad Ascenso al Teide en Teleférico hasta que hayamos emitido el pase de acceso al cráter a tu nombre.",
+        "1": "Si no podemos confirmar tu reserva, te ofreceremos una fecha alternativa o el reembolso del importe abonado.",
+        "2": "Además, debido al funcionamiento del sistema de emisión de permisos del Parque Nacional, si reservas esta actividad, una vez confirmada por nosotros, no podrás cancelarla bajo ningún concepto.",
+        "3": "Es necesario presentar el DNI o pasaporte en el punto de acceso al sendero que conduce al cráter.",
+        "4": "En caso de que el sendero al pico esté cerrado, el personal del Parque Nacional del Teide puede permitir el acceso únicamente a montañeros federados que puedan demostrar suficientemente su capacidad y que dispongan del equipamiento adecuado (equipo de montañismo — en particular botas, crampones y piolet). Es responsabilidad del individuo asegurarse de disponer de la documentación y el equipamiento adecuados, por lo que la ausencia de cualquiera de ellos exime a Volcano Teide de toda responsabilidad.",
+        "5": "El ascenso al pico implica una caminata de aproximadamente dos horas (subida y bajada) y está catalogada como de alta dificultad. Por lo tanto, los visitantes necesitan un buen nivel de forma física. Si el guía considera que no tienes el nivel de forma física requerido, por tu seguridad, puede pedirte que abandones el sendero o la actividad."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo cómoda y calzado adecuado.",
+        "1": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "2": "Lleva abundante agua en las caminatas.",
+        "3": "Si hay hielo o nieve, debes ir equipado con ropa técnica, crampones y piolets."
+      }
+    },
+    "teide-observatory-visit": {
+      "title": "Visita guiada diurna al Observatorio del Teide",
+      "shortDescription": "Una visita guiada diurna al Observatorio del Teide. Reserva tus entradas para descubrir el Observatorio de Tenerife, el observatorio solar más grande e importante del mundo.",
+      "description": "Una visita guiada al Observatorio del Teide gestionada por el Instituto de Astrofísica de Canarias.",
+      "fullDescription": "El Observatorio del Teide es uno de los observatorios solares más importantes del mundo, operado por el Instituto de Astrofísica de Canarias (IAC). Situado a 2.390 metros de altitud en la isla de Tenerife, se beneficia de unas condiciones atmosféricas excepcionales que lo hacen ideal para la observación solar.\n\nDurante esta visita guiada, un astrofísico experto te llevará a recorrer las instalaciones del observatorio, incluidos algunos de sus telescopios más importantes. Aprenderás sobre la investigación de vanguardia que se lleva a cabo y la historia de la astronomía en las Islas Canarias.\n\nEl momento culminante de la visita es la observación del Sol a través de telescopios solares profesionales equipados con filtros especiales, que permiten ver manchas solares, prominencias y erupciones solares en tiempo real.\n\nLa visita incluye una charla introductoria con una presentación audiovisual sobre el observatorio y los programas de investigación del IAC, seguida de la visita guiada a las instalaciones y la observación solar.\n\nDisponible en inglés, español, alemán y francés.",
+      "highlights": {
+        "0": "Visita el Observatorio del Teide durante el día",
+        "1": "El observatorio solar más grande del mundo",
+        "2": "Te asombrará el interior de un telescopio nocturno",
+        "3": "Prepárate para quedarte atónito al observar el Sol"
+      },
+      "includes": {
+        "0": "Visita guiada al Observatorio del Teide",
+        "1": "Guía en español, inglés, francés o alemán"
+      },
+      "notIncluded": {
+        "0": "Guía en idioma distinto del español, inglés, francés o alemán",
+        "1": "Transporte"
+      },
+      "restrictions": {
+        "0": "Protégete del sol. Se recomienda usar gorra, gafas de sol y protector solar.",
+        "1": "Debido a los bajos niveles de humedad habituales en el Observatorio de Tenerife, trae suficiente líquido (agua o zumos) para evitar la deshidratación.",
+        "2": "Lleva ropa cómoda y calzado adecuado (evita sandalias y tacones).",
+        "3": "Trae algo de ropa de abrigo por si el tiempo cambia bruscamente y para entrar en el interior de los telescopios."
+      },
+      "importantInfo": {
+        "0": "Protégete del sol. Se recomienda usar gorra, gafas de sol y protector solar.",
+        "1": "Debido a los bajos niveles de humedad habituales en el Observatorio de Tenerife, trae suficiente líquido (agua o zumos) para evitar la deshidratación.",
+        "2": "Lleva ropa cómoda y calzado adecuado (evita sandalias y tacones).",
+        "3": "Trae algo de ropa de abrigo por si el tiempo cambia bruscamente y para entrar en el interior de los telescopios."
+      },
+      "prepare": {
+        "0": "Protégete del sol. Se recomienda usar gorra, gafas de sol y protector solar.",
+        "1": "Debido a los bajos niveles de humedad habituales en el Observatorio de Tenerife, trae suficiente líquido (agua o zumos) para evitar la deshidratación.",
+        "2": "Lleva ropa cómoda y calzado adecuado (evita sandalias y tacones).",
+        "3": "Trae algo de ropa de abrigo por si el tiempo cambia bruscamente y para entrar en el interior de los telescopios."
+      }
+    },
+    "astronomic-tour": {
+      "title": "Tour astronómico al Teide con visita al Observatorio",
+      "shortDescription": "Tour astronómico al Teide para amantes de la astronomía. Visita vespertina al Observatorio del Teide y observación de estrellas con telescopios profesionales. Transporte incluido.",
+      "description": "Combina una visita guiada al Observatorio del Teide con observación de estrellas nocturna para la experiencia astronómica más completa de Tenerife.",
+      "fullDescription": "Esta es la experiencia astronómica más completa disponible en el Teide, que combina dos actividades excepcionales en un día inolvidable: una visita guiada al Observatorio del Teide y una sesión profesional de observación de estrellas.\n\nLa experiencia comienza con la recogida en tu hotel por la tarde. Primero, visitarás el Observatorio del Teide, uno de los principales observatorios solares del mundo, operado por el Instituto de Astrofísica de Canarias. Un astrofísico experto te guiará por las instalaciones y observarás el Sol a través de telescopios solares profesionales.\n\nTras la visita al observatorio, disfrutarás de una cena tradicional canaria en un restaurante local. Al caer la noche, comienza la segunda parte de la experiencia: una sesión de observación astronómica guiada con telescopios de largo alcance.\n\nDirigida por astrónomos certificados por la Starlight Foundation, observarás planetas, la Luna, cúmulos estelares, nebulosas y galaxias desde uno de los mejores lugares del mundo para la observación de estrellas. El Parque Nacional del Teide cuenta con la certificación de Destino Turístico Starlight.\n\nDisponible en inglés y español. Recogida y regreso al hotel, cena y todas las actividades incluidas.",
+      "highlights": {
+        "0": "El tour astronómico 2 en 1 perfecto para los amantes de la astronomía en Tenerife",
+        "1": "Visita guiada por la tarde al observatorio solar más grande del mundo",
+        "2": "Observación de estrellas en el Teide a simple vista y con telescopios en la estación base del teleférico"
+      },
+      "includes": {
+        "0": "Transporte para grupos reducidos",
+        "1": "Guía Starlight en inglés o español para disfrutar de la astronomía en Tenerife",
+        "2": "Visita guiada al Observatorio del Teide",
+        "3": "Observación astronómica en el Teide con telescopios de largo alcance",
+        "4": "Parada para cena"
+      },
+      "notIncluded": {
+        "0": "Menú. Puedes comprar nuestra cena estilo picnic o traer tu propia comida.",
+        "1": "Visita nocturna al Observatorio de Tenerife",
+        "2": "Guía Starlight en idioma distinto del inglés o el español"
+      },
+      "restrictions": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Protégete de la insolación.",
+        "2": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "3": "Lleva abundante agua en las caminatas."
+      },
+      "importantInfo": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Protégete de la insolación.",
+        "2": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "3": "Lleva abundante agua en las caminatas."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo y calzado adecuado.",
+        "1": "Protégete de la insolación.",
+        "2": "Debido a la elevada luminosidad, usa gafas de sol.",
+        "3": "Lleva abundante agua en las caminatas."
+      }
+    },
+    "teide-legend": {
+      "title": "Exposición Teide Legend + Cómic",
+      "shortDescription": "Descubre la exposición Ciencia y Leyenda en nuestro Centro de Visitantes, donde también encontrarás una tienda oficial y una cafetería.",
+      "description": "Una exposición interactiva sobre la mitología guanche y la historia volcánica del Teide, con cómic incluido.",
+      "fullDescription": "Teide Legend es una exposición audiovisual interactiva ubicada en el Centro de Visitantes del Teleférico del Teide. Cuenta la historia de Guayota, el rey demonio que, según la mitología guanche, secuestró al dios del Sol Magec y lo encerró dentro del volcán, sumiendo al mundo en la oscuridad.\n\nLa exposición combina leyenda con ciencia, utilizando tecnología audiovisual para explicar tanto el significado mitológico del Teide para el pueblo guanche (los habitantes originarios de las Islas Canarias) como la realidad geológica del volcán.\n\nTu entrada incluye un cómic bellamente ilustrado que relata la leyenda de Guayota y Magec — un recuerdo perfecto y una gran manera de introducir a los niños en la historia y la cultura de Tenerife.\n\nLa exposición está disponible en 8 idiomas y es apta para todas las edades. Se completa en aproximadamente 20 minutos.\n\nTambién en el Centro de Visitantes encontrarás la exposición permanente «Ciencia y Leyenda», una tienda de recuerdos y el Café Guayota.",
+      "highlights": {
+        "0": "Disfruta de la exposición «Ciencia y Leyenda» con cómic gratuito incluido, que encontrarás en el Centro de Visitantes del Teleférico del Teide. Entrada gratuita para menores de 13 años.",
+        "1": "Para el toque final de tu experiencia en la Exposición Teide Legend + Cómic, ¿por qué no compras un bonito recuerdo en nuestra tienda de regalos y disfrutas de la cocina local en el restaurante-cafetería del Teleférico del Teide?",
+        "2": "Puedes usar tu entrada como descuento equivalente a su coste en comida y bebida en el restaurante-cafetería, o en compras en la tienda oficial de recuerdos. (Descuento ya aplicado en el paquete combinado de entrada a la exposición + cómic + paquete café)."
+      },
+      "includes": {
+        "0": "Entrada para la exposición «Ciencia y Leyenda» en el Centro de Visitantes",
+        "1": "Entrada para la exposición «Ciencia y Leyenda» + paquete café",
+        "2": "1 cómic gratuito «Leyenda Volcano Teide» por entrada de adulto"
+      },
+      "notIncluded": {
+        "0": "Entrada de teleférico. (Recuerda que una entrada de teleférico incluye acceso a la exposición, por lo que no es necesario reservar una entrada adicional para la exposición al comprar una entrada de teleférico.)",
+        "1": "Transporte. Si deseas visitar el Teide de forma sostenible, reserva la Excursión Teide Tour y disfruta del Parque Nacional con un guía oficial, junto con la entrada a la exposición y el Centro de Visitantes.",
+        "2": "Comida y/o bebida (que puedes comprar en nuestro restaurante-cafetería)",
+        "3": "La opción de canjear el coste de tu entrada por un descuento equivalente en la tienda oficial o el restaurante-cafetería — al reservar el paquete combinado de entrada + cómic + paquete café —, ya que ya ha sido aplicado al paquete combinado."
+      },
+      "restrictions": {
+        "0": "No se permiten mascotas en el Centro de Visitantes del Teleférico."
+      },
+      "importantInfo": {
+        "0": "Es necesario presentar la confirmación de la reserva, impresa o en el dispositivo móvil, para acceder a la exposición.",
+        "1": "¡Los menores de 13 años entran gratis!",
+        "2": "Recuerda que al comprar una entrada de teleférico, el acceso a la exposición está incluido, por lo que no es necesario reservar una entrada adicional para la exposición."
+      },
+      "prepare": {
+        "0": "¡Los menores de 13 años entran gratis! Se requiere documentación acreditativa."
+      }
+    },
+    "mount-teide-night-tour": {
+      "title": "Tour Nocturno al Teide",
+      "shortDescription": "Un Tour Nocturno al Teide para observar las estrellas con guías Starlight usando telescopios de largo alcance. Teleférico no incluido.",
+      "description": "Una excursión nocturna que combina vistas al atardecer, cena y observación de estrellas a los pies del Teide.",
+      "fullDescription": "Esta excursión nocturna te lleva al Parque Nacional del Teide para vivir una experiencia mágica bajo las estrellas. El tour comienza con la recogida en un punto de encuentro cercano a tu hotel y el transporte hasta el Parque Nacional.\n\nAl ponerse el sol sobre el paisaje volcánico, disfrutarás de los espectaculares colores del cielo desde uno de los miradores del parque. Tu guía te explicará las formaciones geológicas y la atmósfera única de este lugar declarado Patrimonio de la Humanidad por la UNESCO al atardecer.\n\nTras contemplar la puesta de sol, cenarás en un restaurante tradicional canario, disfrutando de las especialidades locales en un ambiente cálido y acogedor.\n\nLa última parte de la velada es una sesión profesional de observación astronómica. Con telescopios de largo alcance, astrónomos certificados por la Starlight Foundation te guiarán a través del cielo nocturno, señalando planetas, cúmulos estelares, nebulosas y constelaciones. El Parque Nacional del Teide es uno de los destinos de observación astronómica más destacados del mundo.\n\nEste tour está disponible en inglés y español, con recogida tanto en el norte como en el sur de Tenerife.",
+      "highlights": {
+        "0": "Excursión para visitar el Teide de noche",
+        "1": "Observación de estrellas en el Teide con equipamiento profesional",
+        "2": "Contempla el atardecer desde un mirador del Parque Nacional",
+        "3": "Deja que guías astronómicos certificados te desvelen los misterios del cielo",
+        "4": "Visita el Teide en una excursión nocturna a uno de los tres mejores cielos del mundo para observar las estrellas"
+      },
+      "includes": {
+        "0": "Transporte ida y vuelta desde un punto de encuentro cercano a tu hotel",
+        "1": "Observación profesional del Universo con telescopios de largo alcance",
+        "2": "Guía Starlight certificado en español o inglés",
+        "3": "Atardecer desde un mirador antes de la observación astronómica",
+        "4": "Cena-picnic estilo Teide (opcional)"
+      },
+      "notIncluded": {
+        "0": "Guía Starlight en idioma distinto del indicado",
+        "1": "Entradas del Teleférico del Teide. Si deseas disfrutar de la experiencia con teleférico incluido, te recomendamos Sunset & Stars.",
+        "2": "Senderismo nocturno en el Teide"
+      },
+      "restrictions": {
+        "0": "Los niños menores de 8 años no pueden participar en la excursión nocturna al Teide. Se requiere acreditación de edad.",
+        "1": "No se permiten mascotas."
+      },
+      "importantInfo": {
+        "0": "Todos nuestros guías son guías astronómicos certificados por la Starlight Foundation."
+      },
+      "prepare": {
+        "0": "Lleva ropa de abrigo cómoda y calzado adecuado.",
+        "1": "Si tiene problemas de salud, consulte a su médico antes de realizar esta actividad."
+      }
+    }
+  },
+  "info": {
+    "teide-national-park": {
+      "title": "Parque Nacional del Teide",
+      "content": "El Parque Nacional del Teide es el parque nacional más grande y antiguo de las Islas Canarias, y Patrimonio de la Humanidad de la UNESCO desde 2007. Situado en el centro de Tenerife, abarca una superficie de 18.990 hectáreas y alberga el pico más alto de España, el Teide, con 3.718 metros sobre el nivel del mar.\n\nEl parque se organiza en torno a la enorme caldera de Las Cañadas, un cráter volcánico de aproximadamente 16 kilómetros de diámetro formado por una serie de erupciones volcánicas y colapsos. Dentro de este extraordinario paisaje, encontrarás formaciones geológicas únicas, incluidos los famosos Roques de García, coladas de lava de diversas edades y el imponente cono del propio Teide.\n\nEl Parque Nacional del Teide alberga una notable variedad de especies vegetales endémicas, muchas de las cuales no se encuentran en ningún otro lugar de la Tierra. La violeta del Teide (Viola cheiranthifolia), que crece a altitudes superiores a los 2.500 metros, es una de las plantas con flor que se encuentran a mayor altitud en España. El tajinaste rojo (Echium wildpretii), con sus espectaculares espigas de flores rojas, es una de las plantas más emblemáticas de las Islas Canarias.\n\nEl parque es también uno de los destinos de observación astronómica más destacados del mundo, con la certificación de Destino Turístico Starlight. Su elevada altitud, clima seco y distancia de las principales fuentes de contaminación lumínica crean condiciones ideales para la observación astronómica. El Observatorio del Teide, operado por el Instituto de Astrofísica de Canarias, es uno de los principales observatorios solares del mundo.\n\nCon más de 4 millones de visitantes al año, el Parque Nacional del Teide es el parque nacional más visitado de España y uno de los más visitados del mundo. A pesar de ello, una cuidada gestión y los esfuerzos de conservación garantizan que el extraordinario patrimonio natural del parque se preserve para las generaciones futuras.\n\nEl clima en el parque varía significativamente con la altitud y la estación del año. En la estación base (2.356 m), las temperaturas oscilan generalmente entre -5 °C y 25 °C. En la cima, las temperaturas pueden descender por debajo de los -15 °C en invierno. Puede nevar en cualquier momento entre noviembre y abril."
+    },
+    "teide-cable-car-info": {
+      "title": "Teleférico del Teide",
+      "content": "El Teleférico del Teide es el transporte aéreo que conecta la estación base a 2.356 metros con la estación superior de La Rambleta, a 3.555 metros sobre el nivel del mar. El trayecto dura solo 8 minutos y cubre una distancia horizontal de 1.200 metros con un desnivel de 1.199 metros.\n\nEl teleférico fue inaugurado en 1971 y ha sido modernizado en varias ocasiones, la más reciente en 2019. Es el único teleférico de un parque nacional en Europa alimentado íntegramente por energía solar — una instalación fotovoltaica en la estación base proporciona el 100% de la electricidad necesaria para operar el sistema, convirtiéndolo en un transporte de cero emisiones.\n\nEl teleférico dispone de dos cabinas, cada una con capacidad para 44 pasajeros. Opera a diario desde aproximadamente las 9:00 hasta las 17:00 (última subida a las 16:00), aunque los horarios pueden variar según la estación. El teleférico puede cerrar de forma temporal o durante todo el día por condiciones meteorológicas adversas, especialmente por fuertes vientos.\n\nEn la estación superior (La Rambleta), los visitantes pueden acceder a dos senderos de miradores: el sendero 11 al mirador de Pico Viejo y el sendero 12 al mirador de La Fortaleza. Ambos senderos ofrecen espectaculares vistas panorámicas y pueden recorrerse sin permiso. Para acceder al sendero del cráter (sendero 10) que conduce al pico a 3.718 m, se requiere un permiso especial del Parque Nacional.\n\nEl complejo de la estación base del teleférico incluye el Centro de Visitantes con la exposición Teide Legend, la exposición permanente «Ciencia y Leyenda», una tienda de recuerdos, el Café Guayota y las taquillas.\n\nRecomendamos encarecidamente reservar las entradas del teleférico online con antelación, ya que la capacidad diaria es limitada y las entradas se agotan con frecuencia durante la temporada alta."
+    },
+    "weather-and-webcams": {
+      "title": "El Tiempo en el Teide Hoy",
+      "content": "Las condiciones meteorológicas en el Teide pueden cambiar rápidamente y variar significativamente según la altitud. Antes de planificar tu visita, es importante consultar las condiciones actuales.\n\nEn la estación base (2.356 m), las temperaturas oscilan generalmente entre 5 °C y 25 °C en verano y entre -5 °C y 15 °C en invierno. En la estación superior (3.555 m), las temperaturas son generalmente de 10 a 15 °C más bajas. La sensación térmica puede hacer que parezca significativamente más frío.\n\nEl teleférico puede cerrar de forma temporal o durante todo el día por condiciones meteorológicas adversas. El motivo más habitual de cierre es el fuerte viento en la estación superior. Otros factores incluyen hielo en los cables, escasa visibilidad y tormentas eléctricas.\n\nFactores meteorológicos clave a tener en cuenta:\n\n- Temperatura: Lleva siempre ropa de abrigo, independientemente de la estación. Las temperaturas a 3.555 m pueden ser inferiores a 0 °C incluso en verano.\n- Viento: Los vientos fuertes son habituales en altitud y pueden provocar el cierre del teleférico. Vientos superiores a 40 km/h generalmente suponen la suspensión del servicio.\n- Radiación UV: A 3.555 m, la radiación UV es aproximadamente un 30% más intensa que a nivel del mar. Usa siempre crema solar, gafas de sol y gorra.\n- Nubosidad: El fenómeno del «mar de nubes» es habitual — la estación base puede estar por encima de las nubes mientras la costa está nublada, o viceversa.\n\nActualizamos la información meteorológica a diario. Para las condiciones en tiempo real, consulta nuestras webcams con vistas en directo desde la estación base y la estación superior.\n\nSi el teleférico está cerrado por meteorología, los titulares de entradas afectados pueden reprogramar su visita de forma gratuita o solicitar un reembolso completo."
+    }
+  },
+  "legal": {
+    "terms-and-conditions": {
+      "title": "Condiciones generales",
+      "sections": {
+        "0": {
+          "title": "I. TITULARIDAD DEL SITIO WEB",
+          "content": "TELEFÉRICO DEL PICO DE TEIDE, S.A. (en adelante, Teleférico del Teide), sociedad española con CIF n.º A-38002549, domicilio social en Calle San Francisco 5, 4.º, 38002, Santa Cruz de Tenerife, Islas Canarias, constituida el 12 de agosto de 1960 e inscrita en el Registro Mercantil de Santa Cruz de Tenerife, Folio 15, Hoja 174, Tomo 1 de la Sección 3, es la titular del sitio web www.volcanoteide.com (en adelante, el Sitio Web).\nAtención al cliente: info@volcanoteide.com"
+        },
+        "1": {
+          "title": "II. CONDICIONES GENERALES DE CONTRATACIÓN",
+          "content": "Las presentes Condiciones de Compra On-Line regularán expresamente las relaciones surgidas entre TELEFÉRICO DEL TEIDE y los consumidores que contraten los servicios o productos ofertados en el Sitio Web.\nEstas Condiciones de Compra han sido elaboradas de conformidad con lo establecido en la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico, la Ley 7/1998 sobre Condiciones Generales de Contratación, el Real Decreto 1906/1999 que regula la contratación telefónica y electrónica con condiciones generales según lo dispuesto en el artículo 5.3 de la Ley 7/1998, el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias, la Ley 7/1996 de Ordenación del Comercio Minorista (modificada por la disposición final 2.2 de la Ley 3/2014, de 27 de marzo. Ref. BOE-A-2014-3329), la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza, publicada el 12 de noviembre en el Boletín Oficial del Estado, y cualesquiera otras disposiciones legales que resulten de aplicación.\nEste documento es accesible en todo momento en la sección de Compra On-Line del Sitio Web de TELEFÉRICO DEL TEIDE y puede ser impreso y almacenado por el Usuario.\nAntes de realizar tu compra on-line, recuerda que debes dar tu consentimiento expreso al tratamiento de tus datos personales por Teleférico del Pico de Teide, S.A. rellenando el formulario disponible en nuestro Sitio Web."
+        },
+        "2": {
+          "title": "INFORMACIÓN PRECONTRACTUAL",
+          "content": "Las presentes Condiciones de Compra On-Line tienen por objeto regular las condiciones generales de prestación de los servicios ofrecidos por TELEFÉRICO DEL TEIDE a través del sitio web www.volcanoteide.com. Los servicios que actualmente presta TELEFÉRICO DEL TEIDE y que constituyen el objeto del contrato con los consumidores son los servicios relativos a la venta de determinados tipos de entradas para el propio Teleférico del Teide y las distintas excursiones que la empresa ofrece a nuestros Usuarios, así como, en su caso, otros productos y servicios ofertados en el Sitio Web.\nLos productos y servicios ofrecidos por TELEFÉRICO DEL TEIDE pueden ser adquiridos por cualquier consumidor residente en España o en otro Estado miembro de la Unión Europea o del Espacio Económico Europeo, así como por consumidores residentes en un estado que no sea miembro de la Unión Europea o del Espacio Económico Europeo, pero a los que sea de aplicación la legislación española.\nEl servicio de venta de entradas de TELEFÉRICO DEL TEIDE, así como de cualquier otro producto ofertado a través de nuestros Sitios Web, se establece a título oneroso, y el precio de cada producto —impuestos incluidos— se muestra en el Sitio Web en cada momento.\nEl acceso a la información contenida en nuestros Sitios Web no está sujeto a ningún tipo de pago.\nEl consumidor entiende que la información contenida en nuestros Sitios Web, incluida la información general sobre el catálogo de servicios así como de otros productos ofertados en los Sitios Web, y las Condiciones Generales de Compra On-Line y ejecución del contrato, es suficiente para excluir cualquier error en el consentimiento del mismo."
+        },
+        "3": {
+          "title": "1.1. Procedimientos",
+          "content": "Para proceder a la utilización de los distintos servicios ofertados en los Sitios Web, el consumidor deberá seguir todas las indicaciones e instrucciones mostradas en la pantalla en cada paso del proceso de compra, proporcionando a tal efecto la información requerida en los formularios establecidos en los Sitios Web, lo que implicará la lectura previa y aceptación de todas las Condiciones Generales de Compra On-Line establecidas en los mismos; el consumidor reconoce por la presente conocer y aceptar los mencionados procedimientos como necesarios para acceder a los productos y servicios ofertados en el Sitio Web.\nEl consumidor finalizará el proceso de compra una vez haya completado todas las fases del mismo, enviado electrónicamente la orden de compra y cumplido la obligación de pago a través de uno de los diferentes métodos disponibles, bien mediante «tarjeta de crédito» o utilizando el sistema «PayPal».\nEstas Condiciones Generales de Compra On-Line pasarán a formar parte del contrato en el momento de la aceptación expresa del consumidor, evidenciada mediante la cumplimentación y envío de los datos introducidos durante el proceso de compra.\nEl uso de cualquiera de los servicios del Sitio Web implica la aceptación sin reservas de cada una de las Condiciones Generales de Uso de los Sitios Web, así como de las Condiciones Generales de Compra On-Line y, en su caso, de las Condiciones Específicas de Compra que se ponen a disposición del consumidor antes de la finalización del proceso de compra, y que rigen la adquisición de las entradas así como la adquisición de todos los demás productos y servicios ofertados en el Sitio Web."
+        },
+        "4": {
+          "title": "1.2. Normas de acceso al Teleférico",
+          "content": "Mediante la compra de una entrada del Teleférico del Teide, los usuarios aceptan quedar vinculados por las Normas de Acceso al teleférico y, en caso de incumplimiento, eximen a la empresa concesionaria de toda responsabilidad y/o renuncian a su derecho a reembolso. Debido a las condiciones del sendero y las dificultades de evacuación, las personas con movilidad reducida deben valorar su propia capacidad para utilizar las instalaciones. No obstante, el personal del Teleférico del Teide, en determinadas circunstancias, se reserva el derecho de denegar el acceso a dichas personas con discapacidad en interés de garantizar la seguridad de los demás usuarios y el buen funcionamiento del servicio. Sin perjuicio de lo anterior, el usuario afectado o su representante legal deberá asumir la plena responsabilidad de cualquier incidente, dificultad de evacuación u otras dificultades que puedan derivarse del uso del servicio sin tener la capacidad requerida. Dadas las condiciones ambientales que imperan en el Parque Nacional del Teide, los usuarios deben tener en cuenta que, en caso de avería del sistema de teleférico por problemas técnicos imprevistos, los pasajeros que ya se encuentren en la estación superior deberán realizar el descenso a pie por senderos de montaña empinados. Esto no supone responsabilidad alguna por parte de la empresa concesionaria."
+        },
+        "5": {
+          "title": "1.3. Documentación e idioma",
+          "content": "Estas Condiciones Generales de Compra On-Line son accesibles en todo momento durante la compra on-line en el Sitio Web de TELEFÉRICO DEL TEIDE y pueden ser impresas y almacenadas por el consumidor.\nEn caso de adquisición de productos, tras la finalización del proceso de compra, el consumidor recibirá por correo electrónico una Factura Simplificada (Entrada o Bono) de la compra realizada con un código de barras válido, que deberá canjearse por entradas en las instalaciones y/o dará acceso a la actividad reservada.\nEl consumidor no podrá ejercer el derecho de desistimiento, al concurrir una de las excepciones legalmente reconocidas, establecida en el artículo 103 letra L del Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios (TRLGDCU) y otras leyes complementarias. Dicho artículo establece literalmente: «El derecho de desistimiento no será aplicable a los contratos que se refieran a las siguientes prestaciones: Suministro de servicios de alojamiento para fines distintos del de servir de vivienda, transporte de bienes, alquiler de vehículos, comida o servicios relacionados con actividades de esparcimiento si los contratos prevén una fecha o un período de ejecución específicos.»\nPara cualquier incidencia, reclamación o ejercicio de sus derechos, el consumidor podrá enviar un correo electrónico a la siguiente dirección: info@volcanoteide.com"
+        },
+        "6": {
+          "title": "Planes de contingencia:",
+          "content": "CABLE CAR / OBSERVATORY\nIf it is not possible to carry out the activity due to adverse weather conditions or for technical reasons, the full amount shall be reimbursed. In case of cloud cover conditions in the Observatory, the usual itinerary of the visit may be modified.\nTEIDE TOUR + CABLE CAR\nIn the event that weather conditions impede the operation of the cable car for the ‘Teide Tour and Cable car ride’ activity, the price of the cable car return ticket shall be reimbursed at the following rates: Adults €42.00 (non-resident) or €10.50 (resident); Children €21 (non-resident) or €5.25 (resident).\nSUNSET & STARS\nIn the event that weather conditions impede the operation of the cable car for the ‘Sunset & Stars’ activity, the sunset shall be enjoyed either from the Chío viewpoint or from Los Roques de García, and the price of the ticket for the cable car at sunset shall be reimbursed at the following rates: Adults €71.00 (non-resident) or €49.50 (resident); Children €50 (non-resident) or €35 (resident). If weather conditions prevent the astronomical observation from taking place, €35 for non-resident adults and €30 for non-resident children, or €24.50 for resident adults and €21 for resident children shall be reimbursed.\nCABLE CAR AT SUNSET\nIn the event that weather conditions impede the operation of the cable car for the ‘Cable Car at Sunset’ activity, the full amount paid for the activity shall be reimbursed.\nASTRONOMIC TOUR\nIf it is not possible to carry out the entire activity due to adverse weather conditions, the full amount shall be reimbursed. In the event that weather conditions prevent the visit to the Observatory from taking place, the price of the Night tour to Mount Teide (with or without picnic) shall be charged, and the difference shall be reimbursed. In case of cloud cover conditions in the Observatory, the usual itinerary of the visit may be modified. If weather conditions prevent the astronomical observation from taking place, €35 for non-resident adults and €30 for non-resident children, or €24.50 for resident adults and €21 for resident children shall be reimbursed.\nASTRONOMICAL OBSERVATION - MOUNT TEIDE NIGHT TOUR\nIn the event that weather conditions impede the astronomical observation, the amount paid for the activity shall be reimbursed (except for any picnic received, if applicable).\nCLIMBING THE TEIDE CRATER AND ASCENT TO THE PEAK\nIf weather conditions mean that the cable car is not operating when the Climbing the Teide Crater with the help of the Cable Car activity is due to take place, a visit to the National Park with an alternative hike will be held instead. Customers will be refunded the following amounts for each activity option:\n- Climbing the Teide Crater: Customers will be refunded the price difference between the ‘Teide Tour without Cable Car’ and the ‘Climbing the Teide Crater’ excursions, i.e., €49.00 per adult and €24.50 per child shall be charged.\nIn the event that the cable car is open but the trail used to "
+        },
+        "7": {
+          "title": "CANCELACIONES",
+          "content": "Up to 3 date changes within a maximum of 1 year are permitted.\nNo charges shall apply to requests for modification or cancellation of reservations for the Cable Car that are motivated by the closure thereof due to weather conditions. You can change the time or date, or cancel your ticket free of charge until 6.00pm on the day prior to the reserved date. Once this period has elapsed, or if the reservation is made after 6.00pm on the previous day, changes will not be accepted, and in the event of a cancellation, customers will be charged the full cost of the booking. All changes and cancellations of Cable Car tickets can be made comfortably via our booking management module .\nThe price of cable car tickets fluctuates depending on demand and the time of year, both upwards and downwards. For date changes to a ticket with a lower price, the difference between the initially purchased ticket and the new requested ticket will be refunded. Otherwise, i.e., for date changes to tickets with a higher price, the booking must be cancelled and a new purchase made.\nSince the operation of the Cable Car is subject to the changing weather (wind speed, temperature, etc.), on occasions, the estimated boarding time may be delayed.\nIf a temporary service interruption due to adverse weather conditions or technical reasons causes a delay of at least 90 minutes in relation to the booked time, the full refund of the amount may be requested free of charge provided that the tickets have not been used.\nFor the Sunset & Stars activity, date changes or cancellations can be made free of charge up to 48 hours prior to the activity. After this period, the cancellation carries a charge of 50% of the amount. If the cancellation takes place with less than 24 hours’ notice, 100% of the amount will be charged.\nFor the Brunch with Teide Cable Car Ticket activity, reservations may be cancelled or the date of the activity may be changed free of charge up to 48 hours prior to the activity. After this period, 100% of the amount will be charged.\nFor private activities (except those including the Ascent to the Peak of Mount Teide), date changes or cancellations can be made free of charge up to 72 hours prior to the activity. After this period, the cancellation carries a charge of 50% of the amount. If the cancellation takes place with less than 24 hours’ notice, 100% of the amount will be charged. Up to 3 date changes within a maximum of 1 year are permitted.\nFor all other activities, date changes or cancellations can be made free of charge up to 24 hours prior to the activity. After this period, 100% of the amount will be charged.\nSince hiking activities ‘Climbing the Teide Crater with the help of the Cable Car’ and ‘VIP ascent to the Peak by Cable Car’ include the permit to access the crater, we do not admit changes or cancellations once booking has been confirmed. This is due to the way the Teide National Park’s permit issuing system works.\nBecause we market certain experiences provided by"
+        },
+        "8": {
+          "title": "Uso de códigos promocionales en el sitio web",
+          "content": "Los consumidores pueden recibir, junto con su bono, un código promocional para utilizar en futuras compras en este sitio web.\nEstos códigos promocionales, recibidos por el consumidor junto con su bono por la compra de una actividad, solo serán válidos para la compra futura de cualquiera de las actividades del catálogo que aplique. Esto incluye utilizarlo para reservar la misma actividad para la que se ha recibido el código promocional, siempre que la actividad no haya sido cancelada por el consumidor."
+        },
+        "9": {
+          "title": "1.4. Medios técnicos",
+          "content": "Los Sitios Web pondrán a disposición del consumidor todos los medios técnicos necesarios para el seguimiento y corrección de errores en los datos introducidos en los distintos formularios que se muestran en la pantalla durante el proceso de compra."
+        },
+        "10": {
+          "title": "1.5. Modificación de las Condiciones Generales de Compra On-Line",
+          "content": "TELEFÉRICO DEL TEIDE se reserva el derecho de modificar en cualquier momento estas Condiciones Generales de Compra On-Line o, en su caso, las Condiciones Específicas de Compra que puedan resultar de aplicación, así como cualesquiera otros términos generales o específicos, normativas de uso o avisos que puedan ser de aplicación. La obligación de notificación a los consumidores se considerará cumplida mediante la modificación de las Condiciones Generales establecidas en los Sitios Web de TELEFÉRICO DEL TEIDE.\nEn todo caso, siempre será posible leer, antes de comprar productos o servicios, las Condiciones Generales de Compra On-Line y, en su caso, las Condiciones Específicas de Compra que puedan resultar de aplicación. Asimismo, la empresa se reserva el derecho de modificar en cualquier momento la presentación, configuración y ubicación del Sitio Web, así como los contenidos y condiciones de uso del mismo."
+        },
+        "11": {
+          "title": "PROTECCIÓN DE DATOS PERSONALES",
+          "content": "Personal information that the consumer enters on the website and any other data generated afterwards as a result of their relationship with us will be incorporated into the Record of Processing Activities held by Teleférico del Pico de Teide, S.A., having its registered office at Calle San Francisco 5, 4º, 38301 Santa Cruz de Tenerife, Canary Islands. The data will be processed for the purpose of development, maintenance and control of the relationship between the consumer and us and, in particular, to process the purchase of tickets or other products as well as the requests that the consumer may ask of us and to maintain communication in order to improve our services and for statistical purposes.\nIF YOU ARE UNDER THE AGE OF 14, WE NEED THE CONSENT OF YOUR PARENTS OR LEGAL GUARDIANS.\nIn order to obtain it, we will contact them and ask them to confirm that they are your mother, father or legal guardians and that they grant their consent, which is when we will be able to accept your request.\nYou can exercise your rights of access, rectification, erasure, limitation on processing, data portability or the right to object by sending a written request by email to info@volcanoteide.com quoting the reference “ Exercise of Rights ”, accompanied by a copy of your National ID Document or equivalent (passport, Foreigner’s Identification Number, etc.). In the event that you consider that your personal rights have not been sufficiently regarded, you can make a complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos)."
+        },
+        "12": {
+          "title": "LEGISLACIÓN APLICABLE. JURISDICCIÓN",
+          "content": "Las presentes Condiciones Generales se rigen por la legislación española. Las partes podrán optar por someter la resolución de cualquier controversia a los Juzgados y Tribunales del domicilio del consumidor, renunciando expresamente a cualquier otro fuero."
+        },
+        "13": {
+          "title": "CONDICIONES DE USO DE LA APLICACIÓN DE AUDIOGUÍA DE SENDEROS",
+          "content": "These Terms and Conditions of Use set out the rules governing the use of the “Volcano Teide” Application (hereinafter the APP). They can be downloaded from the domain volcanoteide.com By downloading or using the APP, an individual acquires the status of User. Doing so implies their acceptance of all conditions included in this document and in the Privacy Policy and Legal Notice of the said website. The User should read these conditions every time they use the APP, as these are subject to amendment from time to time.\nOnly those Users expressly authorised by TELEFÉRICO DEL TEIDE can proceed to download and use the APP. Unauthorised Users may not access the said content.\nCharges: You are responsible for paying any costs or expenses you incur as a result of downloading and using TELEFÉRICO DEL TEIDE ’s Application, including any network operator’s charge or roaming charge. Check the relevant details with your provider.\nAnonymised statistics: TELEFÉRICO DEL TEIDE reserves the right to follow your activity on the Application, and to supply the information to our third-party statistics service providers. All information will be sent in an anonymised form.\nProtection of your personal information: We want to help you to take every step necessary to protect your privacy and details. Please refer to TELEFÉRICO DEL TEIDE ’s Privacy Policy and to the Application’s privacy alerts to find out what kind of information we gather and the measures we take to protect your personal information.\nAltering or modifying any part of the APP or its content, bypassing, deactivating or manipulating (or attempting to bypass, deactivate or manipulate) the program’s security functions or any other functions, or using the APP or its content for commercial or advertising purposes is prohibited. Using the APP to damage the property, rights or interests of TELEFÉRICO DEL TEIDE or those of third parties is prohibited. Also prohibited is any usage that interferes with, damages or disables TELEFÉRICO DEL TEIDE ’s networks, servers, equipment, products or IT programs—or those of third parties.\nThe APP and its content (text, photographs, graphics, images, technology, software, links, content, graphic design, source code, etc.) as well as the branding and other distinctive features, are the property of TELEFÉRICO DEL TEIDE or of third parties, and the User derives no rights over them by using the APP. The User should refrain from:\nReproducing, copying, distributing, placing at the disposal of third parties, publicly communicating, transforming or otherwise modifying the APP or its content—except in those cases allowed by the law or expressly authorised by TELEFÉRICO DEL TEIDE , or by the owner of such rights. Reproducing or copying the APP or its content for private use, communicating them publicly or placing them at the disposal of third parties when doing so entails reproducing them. Extracting or reusing all or a significant part of the content of the APP.\nSubject to the conditions la"
+        }
+      }
+    },
+    "privacy-policy": {
+      "title": "Política de privacidad",
+      "sections": {
+        "0": {
+          "title": "¿CÓMO UTILIZAMOS LOS DATOS?",
+          "content": "The personal data that you provide to us via the Platform will be processed for the specific purpose stipulated in this privacy policy and, where appropriate, through the various data forms available on the platform. Therefore, data will be gathered and processed for the following purposes:\nTo enable users to browse our web Platform, and to access the information and content available there. To resolve quickly and effectively any queries you may have regarding our services via the various channels available to that end (email, telephone, chat, etc.). To deliver any service contracted by the user, and to manage the invoicing and charging for the services. To enable and manage your registration as a user , if required by you. To allow TELEFÉRICO to send out satisfaction surveys in relation to the quality of goods and services supplied. To manage the possible participation of the user in any special offers, discounts, prize draws that may be made available on the Platform. To manage in an integrated way the register of Partners via the Platform. To send out, subject to your express consent, marketing communications and advertising relating to TELEFÉRICO’s products and services. To inform you about various products and services similar to those contracted and offered by TELEFÉRICO, independently of the channel of communication used. All this in accordance with Article 21.2 of the Spanish Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce, without prejudice to the legitimate exercise of your personal rights at all times and, in particular, your right to object. In the event that you have accepted the cookies policy for the fulfilment of the purposes related to the different types of cookies described in the policy, and particularly analytical cookies (browsing/user profile), to undertake an analysis and gather statistics regarding your web browsing so that we can improve our services and the quality of their delivery. At any time, if you so wish, you can configure the use of analytical cookies, as you have the right to withdraw your consent to the purpose served by the cookies. You are advised that the withdrawal of your consent to the processing of your data in respect of certain types of cookies, such as session cookies or technical cookies, may prevent you from browsing our platform (see Cookies policy). To adopt whatever protection measures may be required in compliance with current law, including the possible anonymisation of your personal data, by using appropriate technology which may be available. Consequently, in the same area, anonymisation and pseudonymisation may be undertaken in order to better protect your personal data. To apply the relevant security, technical and/or organisational measures to your personal data, which may be necessary in the light of risks to your rights detected at any time by TELEFÉRICO, including the encryption of personal data and other measures that may involve particular processing "
+        },
+        "1": {
+          "title": "¿QUÉ TIPO DE DATOS TRATAMOS?",
+          "content": "We need to process your data in order to give you access to the content and/or functionality of the Platform, to send you information or to provide services via the platform, should you require them. To that end, we are firmly committed to treating your personal data in accordance with the law and with the principles and obligations contained in the current regulations governing the protection of personal data.\nWhen you browse our Platform (and especially when you interact or register with us) you provide us with data directly; for example, when you complete any online form or application for the purposes indicated in each case.\nThe data that you provide to us relates to such forms or applications available via the platform, and can vary depending on the type of form or application concerned. Without prejudice to the above, various kinds of personal details can be gathered via the platform, and its different forms/applications. We will always ask you for details that are appropriate, relevant and limited to what is strictly necessary for the purpose of the data processing.\nIdentifying personal data (first name and surname(s), ID or passport). Personal contact data (telephone or mobile phone number, email address). Data concerning personal characteristics (related requirements or queries, for example, which you have expressed via our chat facility, etc.).\nSimilarly, when you browse our web platform, you need to be aware of the cookies that will be installed on your computer or device, as this involves personal data processing depending on the type of cookies used and their specific purposes (see cookies policy ). If you accept our cookies policy, analytical cookies will be used which involve the processing of personal data generated by your browsing profile for analytical and/or statistical purposes. It is important to be aware that by continuing to browse our platform, having been given information on our legal personal data processing policies, you will be confirming that you unreservedly accept the cookies to be used, although you can at any time configure the use of these analytical cookies as indicated in the said cookies policy."
+        },
+        "2": {
+          "title": "¿CUÁL ES LA BASE JURÍDICA PARA EL TRATAMIENTO DE SUS DATOS?",
+          "content": "Purposes of the data processing Legal basis of the data processing To enable users to browse our web Platform. Your consent and, where applicable, the satisfaction of a legitimate interest (whether our own or that of third parties) related to the correct management, development and evolution of the platform, its tools, network, and associated information systems, thereby enabling it to operate correctly, to use its functionalities, and to access its content and services, in addition to the general security points previously mentioned. To be able to contact the user, and to respond to their orders, requests or queries. Your consent and, where applicable, the carrying out of precontractual measures at the request of the user/interested party. To deliver any service contracted by the user, and to manage the invoicing and charging for the services. Execution of the contract. To enable and manage your registration as a user, if required by you. Your consent. To send out satisfaction surveys in relation to the quality of goods and services supplied. Execution of the contract and, where applicable, the satisfaction of a legitimate interest. To manage the possible participation of the user in any special offers, discounts, prize draws that may be made available on the Platform. Your consent. To manage in an integrated way the register of Partners. The execution of a partnership contract, and our legitimate interest pursuant to Article 19 of the Spanish Law LOPDGDD. To enable you to subscribe to our blog/newsletter. Your consent. To inform you about various products and services similar to those contracted and offered. Legitimate interest in accordance with Article 21.2 of the Spanish Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce. If you have accepted the cookies policy as set down, to enable the development of the data processing purposes associated with them and, in particular, the undertaking of the relevant analysis generated by your web browsing for analytical and/or statistical purposes. Your consent. To adopt whatever protection measures may be required in compliance with current law, including possible pseudonymisation and anonymisation of your personal data by the application of the appropriate technology which may be available for the purpose. Compliance with a legal obligation (European Data Protection Regulation). To apply the relevant security measures and technical and/or administrative processes to your personal data, with an emphasis on the ever-present risks. Compliance with a legal obligation (European Data Protection Regulation).\nWhen the main legal basis for the data processing is your informed consent, which you grant unequivocally and freely for your personal data to be processed for the purposes described, you will be able to decide on the manner of the data processing and the destination of your data, in accordance with your specific interests and needs in each case, so that, when the data process"
+        },
+        "3": {
+          "title": "¿CUÁLES SERÍAN LAS CONSECUENCIAS DE NO PROPORCIONARNOS SUS DATOS?",
+          "content": "A failure to provide the personal data required could make it impossible to process any specific order or request, and could result in TELEFÉRICO disregarding and/or refusing your specific order or request.\nIn all cases, the information and personal data which you provide to us must be:\nSufficient, although adapted, limited and commensurate with the legal data processing purposes advised by TELEFÉRICO, and showing the maximum respect for the purpose limitation principle and the minimisation of personal data principle. Accurate, up-to-date and truthful, so that your identity and capacity (and, if applicable, representation) can be properly verified, and so that we can, in each case, adapt the data processing to your specific needs and situation. All this will be undertaken in accordance with the principle of accuracy of personal data.\nYou are also advised that this Platform is intended for use by persons over the age of 18 years, and its use by persons under this age is prohibited."
+        },
+        "4": {
+          "title": "¿CÓMO COMPARTIMOS SUS DATOS?",
+          "content": "In general, users’ personal data which are gathered through the Platform will not be transferred to third parties without prior notice to the users of the specific details to be transferred, as well as of the identity of the transferees or recipients of the data, their activity and the specific purposes for which the said transferees could process the data.\nLikewise, it is possible that certain third parties may have access to your personal information through the delivery of services supplied on behalf of TELEFÉRICO. For example, in respect of third-party cookies which are used on the platform. TELEFÉRICO DEL PICO DE TEIDE, S.A. has implemented the “Enhanced Conversions” function of Google Ads for paid ads in response to this type of third-party cookies being phased out, and uses Google’s “Consent Mode v2” ( see Cookies policy ).\nTELEFÉRICO DEL PICO DE TEIDE, S.A. uses customer data, such as email addresses, to create personalised marketing campaigns through third-party platforms using the Google Ads Customer Match feature. These data are shared in an encrypted and secure manner (using SHA256 encryption) to ensure user privacy. These campaigns allow us to display more relevant ads and build similar audiences to reach new potential customers. For more information on how your data are handled or how you can opt out of these campaigns, please refer to the “User Rights” section.\nUSE OF ANALYTICAL TOOLS AND DATA PROCESSING\nAt Teleférico del Teide, S.A. we use measurement tools such as Eulerian to analyse how users navigate our website and to improve their digital experience. Said platform allows the anonymous and aggregated attribution of interactions, optimising our communication and marketing strategies and measuring advertising campaign performance without identifying individual users.\nLegal basis and data protection principles: Data processing for analytical purposes is based on user consent (Article 6 of the GDPR). Users may accept, reject, or customise their cookie settings through our Consent Management Centre. Furthermore, we ensure compliance with the principles of Article 5 of the GDPR:\nPurpose limitation: Data is only used to improve user experience and optimise business strategies. Data minimisation: We only collate information that is strictly necessary. Storage limitation: Data is deleted once the purpose for which it was processed has been fulfilled, in accordance with the criteria established in our policy.\nMinimal data collection for marketing analysis:\nanonymous and aggregated data\nwithout personally identifying users.\nData security and storage: Eulerian applies security standards such as advanced data encryption and Privacy by Design principles, with access restricted to authorised personnel, without allowing individual users to be identified. Collected data is stored in data centres within the European Union, preventing transfers outside the European Economic Area.\nSimilarly, TELEFÉRICO has a network of partners, duly registered o"
+        },
+        "5": {
+          "title": "¿SE REALIZARÁ ALGUNA TRANSFERENCIA INTERNACIONAL DE SUS DATOS?",
+          "content": "You are advised that, in general, we do not expect to make any international transfer of your personal data, and we adopt the necessary measures and guarantees in compliance with current protection of personal data legislation.\nWithout prejudice to the above, it is important to be aware of a possible international transfer of your personal data for the purpose of enabling you to browse our web Platform and to use the cookies served by third companies. In any case, Teleférico adopts the measures established by the GDPR to adjust any such transfer to the terms of Articles 44 to 49 of the GDPR and Articles 40 to 43 of the Spanish Law LOPDGDD."
+        },
+        "6": {
+          "title": "¿DURANTE CUÁNTO TIEMPO CONSERVAREMOS SUS DATOS?",
+          "content": "Purposes of the data processing Timescales and criteria for the storage To enable users to browse our web Platform. - In general, for this purposes your data will be stored for the length of time that is essential and necessary to enable you to properly browse the website, use our platform and access the content available via the same. - In regard to the data associated with your browsing profile, by virtue of the placement of analytical cookies which you have consented to in accordance with the cookies policy. To be able to contact the user, and to respond to their orders, requests or queries. - For the length of time essential in order to properly attend to your requests and/or specific applications, in each individual case. - If these consist of the execution, at request, of precontractual measures or the execution of a contract, your data will be stored for the time required to fulfil such purposes. To deliver any service contracted by the user, and to manage the invoicing and charging for the services. For the periods of time necessary to properly complete the execution of all the elements of the contract between the parties. To enable and manage your registration as a user, if required by you. Until the time when you request the effective cancellation of the same. If you are a customer, the timescales for the storage of personal details in each case are indicated below. To send out satisfaction surveys in relation to the quality of goods and services supplied. For as long as you do not exercise your right to object. To allow you access, as a customer, to the customers’ digital channel available via the platform. Until the time when you request the effective cancellation of the subscription. To manage the possible participation of the user in any special offers, discounts, prize draws that may be made available on the Platform. Until the time when you request the effective cancellation of the subscription. To manage in an integrated way the register of Partners. While the Partnership agreement between the parties remains in force. To enable you, if you so wish, to subscribe to our blog/newsletter. Until the time when you request the effective cancellation of the subscription. To inform you about various products and services similar to those contracted and offered. Until you exercise your right to object. To adopt whatever protection measures may be required in compliance with current law, including possible pseudonymisation and anonymisation of your personal data by the application of the appropriate technology which may be available for the purpose. While the user’s personal data is being processed, including the storage of such data for the legally stipulated timescales, regardless of the legal basis of the data processing. To apply the relevant security measures and technical and/or administrative processes to your personal data, with an emphasis on the ever-present risks. While the user’s personal data is being processed, including the "
+        },
+        "7": {
+          "title": "¿QUÉ DERECHOS TIENE SOBRE SUS DATOS?",
+          "content": "You can exercise your rights of access, rectification, erasure, limitation on processing, data portability or the right to object by sending a written request by email to info@volcanoteide.com quoting the reference “Exercise of Rights” , accompanied by a copy of your National ID Document or equivalent (passport, Foreigner’s Identification Number, etc.). In the event that you consider that your personal rights have not been sufficiently regarded, you can make a complaint to the competent authority, in this case the Spanish Data Protection Agency (Agencia Española de Protección de Datos)."
+        },
+        "8": {
+          "title": "¿SE ADOPTARÁN MEDIDAS PARA SALVAGUARDAR Y PROTEGER SUS DATOS PERSONALES?",
+          "content": "Taking into consideration the nature, scope, context and stated purposes of the data processing, as well as the likelihood of serious risk to your rights and liberties, TELEFÉRICO applies (and will continue to apply) appropriate technical and administrative measures to ensure the proper security and protection of your personal data, applying standards of privacy by design and by default, in addition to applying a concurrent risk-focused system which will be reviewed and updated as necessary.\nThe use of the Hypertext Transfer Protocol Secure (HTTPS) on our platform provides an enhanced guarantee of the security of your personal data."
+        },
+        "9": {
+          "title": "VIGENCIA Y MODIFICACIÓN DE LA POLÍTICA DE PRIVACIDAD",
+          "content": "TELEFÉRICO reserves the right to amend this policy to adapt it to future legislative doctrinal or case-law changes resulting from application, or from technical, operational, commercial, corporate or business developments, by giving you reasonable advance notice of the changes whenever possible. In all cases, it is recommended that, whenever you access this platform, you carefully read this policy, as any amendment will be published here. Similarly, TELEFÉRICO may inform you personally and in advance of planned changes to this policy, before such changes come into effect, provided that this is technically and reasonably possible, and particularly if you are a registered user or a customer of TELEFÉRICO."
+        },
+        "10": {
+          "title": "POLÍTICA DE PRIVACIDAD PARA APLICACIONES",
+          "content": "In accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation, or GDPR), and Spanish Organic Law 3/2018, 5 December, regarding the Protection of Personal Data and Guarantee of Digital Rights, TELEFÉRICO hereby issues the following information on the processing of personal data to users of the “Volcano Teide” application (hereinafter “the Application”), to which they have voluntarily acceded by registering, accessing and using the service.\nTHE ENTITY RESPONSIBLE FOR PROCESSING THE DATA\nTELEFÉRICO DEL PICO DE TEIDE, S.A., Tax Registration number: A-38002549, registered in the Register of Companies of Santa Cruz de Tenerife on Page 15, Folio 174, Book 1 of Section 3 (hereinafter, the Data Controller), holds the responsibility for processing data supplied by customers of the Application (hereinafter, the User(s)).\nPURPOSE OF THE PROCESSING OF PERSONAL DATA\nIn order to register, access and subsequently use the Application, the User must voluntarily provide details of a personal nature (essentially identity and contact details) to be incorporated into automated systems owned by TELEFÉRICO.\nThe gathering, storage, modification, structuring and ultimately, the removal of the data provided by Users constitute data processing by the Data Controller, for the purpose of ensuring the correct operation of the Application, maintaining the provision of services and/or business to the User, and for the management, administration, information needs, delivery and improvement of the service.\nThe personal data provided by the User—in particular, the email address—can also be used for sending out bulletins (newsletters), in addition to marketing communications and/or advertising of the Application, provided that the User has previously given their express consent to receive communications by electronic means.\nLEGAL BASIS\nThe processing of the User’s data is undertaken and justified on the following legal bases:\nThe customer’s request for information and/or the contracting of the service of the Application, the terms and conditions of which will, in all cases, be made available to the User in advance, for their express consent. The free, specific, informed and unequivocal consent of the User, who will have access to the present privacy policy—which the User must accept by means of a declaration or a clear confirmatory action, such as ticking a box provided for that purpose.\nIn the event that the User does not provide their data to TELEFÉRICO, or does so in a way that is inaccurate or incomplete, they will be unable to proceed to use the Application.\nSTORAGE OF PERSONAL DATA\nThe personal data provided by the User will be stored in the Data Controller’s systems and databases for as long as the User continues to use the Application, or until they request its erasure.\nIn or"
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookies",
+      "sections": {
+        "0": {
+          "title": "¿LA PLATAFORMA UTILIZA COOKIES? ¿QUÉ SON?",
+          "content": "The platform uses cookies, i.e., files or devices that are downloaded onto your computer terminal (personal computer, smartphone, Tablet, mobile device, etc.), and can take various forms.\nTYPES OF COOKIES\nGenerally speaking, and in line with the Cookies Guide published by the Spanish Data Protection Authority (the AEPD), cookies may take various forms governed by different parameters:\nDepending on the entity that administers the equipment and the domain which sends out the cookies and processes the data they gather, we can classify them as:\nFirst-party cookies (our own cookies): These are cookies that are sent to the user’s computer terminal from equipment or a domain administered by TELEFÉRICO DEL PICO DE TEIDE, S.A., and which supplies the service requested by the user. Third-party cookies: These are cookies that are sent to the user’s computer terminal from equipment or a domain not administered by TELEFÉRICO DEL PICO DE TEIDE, S.A., but by another entity which processes the data obtained by the cookies. In cases where the cookies are installed by equipment or a domain administered by TELEFÉRICO DEL PICO DE TEIDE, S.A., but where the information gathered by the cookies is administered by a third party, the cookies cannot be considered as TELEFÉRICO DEL PICO DE TEIDE, S.A.’s own (first-party) cookies. In these cases, TELEFÉRICO DEL PICO DE TEIDE, S.A. can contract the services of analysis and measurement companies which measure and/or analyse the browsing behaviour of users of the platform, and which therefore act in the name and on behalf of TELEFÉRICO DEL PICO DE TEIDE, S.A., by analysing the data obtained from the use of these third-party cookies, with the sole objective of improving the service offered by TELEFÉRICO DEL PICO DE TEIDE, S.A. (Phasing out this type of cookie).\nDepending on the length of time the cookies remain active on the terminal (i.e., their duration), we can distinguish between:\nSession cookies: they are a type of cookie designed to collect and store data whilst the User accesses the web platform. Persistent cookies: they are a type of cookie which continues to store information in the terminal equipment and allows for the data to be accessed and processed during a period of time, defined by the company responsible for the cookie and ranging from a few minutes to several years.\nDepending on the purpose for which the data obtained by means of the cookies is processed, we can distinguish between:\nTechnical cookies: they are cookies that allow the User to browse through the platform and use the different options or services enabled therein, such as for example, controlling the traffic and communication of data, identifying the session, accessing website’s restricted areas, keeping record of the elements of a request, filing a request for registration or participation in an event, using security features during navigation, storing contents for video or audio diffusion or sharing contents through social networks. Customisation"
+        },
+        "1": {
+          "title": "¿QUÉ COOKIES UTILIZAMOS EN LA PLATAFORMA?",
+          "content": "The table below shows information about the specific cookies currently used by TELEFÉRICO DEL PICO DE TEIDE, S.A. on the platform:\nCookie Domain(s) Durati on Purpose Source Purpose 1P_JAR .google.com .google.es 1 day This is used to collect website statistics and to monitor conversion rates. Google Adwords Social network and advertising cookies AKDC .paypal.com 1 day Supports payment for services on the internet. Paypal Functional ANID .google.com .google.es 1 month These cookies serve an advertising purpose. They contain a randomly generated unique value that enables the Platform to distinguish between browsers and devices. This information is used to measure the performance of the advertisements and to provide recommendations in relation to products, based on statistical data. Google Adwords Social network and advertising cookies APID .advertising.com 1 year Gathers information from the visitor’s activity over multiple websites. This information is used on the website to optimise the relevance of advertising. Advertising Social network and advertising cookies APISID .google.com .google.es 2 years These cookies serve an advertising purpose. They contain a randomly generated unique value that enables the Platform to distinguish between browsers and devices. This information is used to measure the performance of the advertisements and to provide recommendations in relation to products, based on statistical data. Google Adwords Social network and advertising cookies CAKEPHP .volcanoteide.com 1 day Start of user’s browsing session identifier. First-party Functional CMID .casalemedia.com 1 year Gathers anonymous data relating to the user’s visits to the website—such as the number of visits, the average time spent browsing the website, and which pages have been loaded—for the purpose of displaying specific advertisements. casalemedia.com Social network and advertising cookies CMPRO .casalemedia.com 3 months Gathers information about the user’s activity on different websites in order to display the most relevant advertising. It also allows the website to limit the number of times a particular user is exposed to the same advertisement. casalemedia.com Social network and advertising cookies CMPS .casalemedia.com 3 months Gathers anonymous data relating to the user’s visits to the website—such as the number of visits, the average time spent browsing the website, and which pages have been loaded—for the purpose of displaying specific advertisements. casalemedia.com Social network and advertising cookies CMRUM3 .casalemedia.com 1 year Gathers anonymous data relating to the user’s visits to the website—such as the number of visits, the average time spent browsing the website, and which pages have been loaded—for the purpose of displaying specific advertisements. casalemedia.com Social network and advertising cookies CMST .casalemedia.com 1 day Gathers anonymous data relating to the user’s visits to the website—such as the number of visits, the average time s"
+        },
+        "2": {
+          "title": "¿QUIÉN UTILIZA LAS COOKIES?",
+          "content": "TELEFÉRICO DEL PICO DE TEIDE, S.A. uses Google’s “Consent Mode v2” so that users who have given their consent receive personalised ads, whereas users who have rejected cookies have their IP address made anonymous and only an anonymous ping is sent to the analytics tool that performs data modelling and optimises the performance of paid ads.\nTELEFÉRICO DEL PICO DE TEIDE, S.A. has implemented the “Enhanced Conversions” function of Google Ads for paid ads in response to third-party cookies being phased out. This means that if a user accepts cookies, certain data belonging to the user will be shared with Google (i.e. the purchasing customer’s e-mail). The e-mail will be hashed using the SH-256 algorithm so that all information is sent in code to respect users’ privacy. SHA-256 guarantees data integrity and cannot be reversed to obtain the original data to securely respect privacy.\nIf a user doesn’t accept cookies, they will only be sent an anonymous ping that reports the conversion and does not contain any of the user’s identifiable data or a hashed e-mail.\nIn terms of anonymity and exercising the right to erase data, data are not stored as such in Google Ads so the Enhanced Conversions function is not affected.\nTELEFÉRICO DEL PICO DE TEIDE, S.A. uses customer data, such as e-mail addresses, to create personalised marketing campaigns through third-party platforms using the Google Ads Customer Match feature. These data are shared in an encrypted and secure manner (using SHA256 encryption) to ensure user privacy.\nUse of analytical cookies and measurement tools:\nTELEFÉRICO DEL PICO DE TEIDE, S.A. uses analytical cookies to improve user experience, optimise our services, and measure the effectiveness of our marketing campaigns. Among these tools, we use the \"Eulerian\" platform from EULERIAN TECHNOLOGIES, S.L. (Software as a Service)—an analytics platform that gathers and centralises information about user browsing behaviour in a secure and anonymised form.\nLegal basis and consent: The use of analytical cookies requires user consent, pursuant to Article 6 of the GDPR. Users may accept, reject, or customise their preferences at any time through our Consent Management Centre, Consent Management Platform (CMP), or Cookie Wall.\nData protection and security: Eulerian applies advanced security measures, including data encryption and the Privacy by Design principle. Collected data is stored on servers located in the European Union, in compliance with the GDPR regulations. Only authorised personnel using secure credentials has access to the platform. Eulerian cannot share data with third parties without the authorisation of TELEFÉRICO DEL PICO DE TEIDE, S.A.\nCookie management and duration: Eulerian analytical cookies only store information for a fixed duration, i.e. for as long as necessary for the purposes stated. For more details on how to manage or delete them, please visit our [Privacy Preference Centre].\nminimal data collection without the user’s consent\nreje"
+        },
+        "3": {
+          "title": "¿QUIÉN UTILIZA LAS COOKIES?",
+          "content": "The information gathered by the cookies delivered by the Platform may be used by the owner of the Platform, or by a third party that supplies a service to the said owner."
+        },
+        "4": {
+          "title": "DESACTIVACIÓN Y ELIMINACIÓN DE COOKIES",
+          "content": "You may allow, block or delete cookies installed on your system via the settings on your computer’s browser. When you deactivate cookies, some of the available services may no longer function. The method of deactivating cookies is different for each browser, but normally it is carried out from the Tools or Options menu. You can also find instructions on your browser’s Help menu. The user can at any time choose which cookies can work on this website.\nYou can allow, block or remove cookies set on your device by configuring the options of the browser installed on your computer:\nMicrosoft Internet Explorer or Microsoft Edge Mozilla Firefox Chrome Safari Opera\nYou can also control your browser’s cookie store, using tools such as these:\nGhostery Your online choices"
+        },
+        "5": {
+          "title": "ACEPTACIÓN DE LA POLÍTICA DE COOKIES",
+          "content": "www.volcanoteide.com assumes that you accept the use of cookies. However, to remind you, information on our cookies policy is shown at the top or bottom of every screen of our portal when you begin your browsing session.\nIn view of this information, you may do any of the following:\nAccept cookies. Once you have clicked to accept cookies, you will not see this warning on any of the portal’s web pages during your current session. Reject cookies. The warning will be hidden on the current page. Change the cookie settings . You can access more information about cookies, view www.volcanoteide.com ’s cookie policy, and change your browser’s cookie settings.\nIf you contact us with regard to your consent, please indicate the ID and date of your consent. Your consent applies to the following domains: www.volcanoteide.com\nCurrent status: Allow all.\nYour consent ID:\nDate of consent: Change your consent | Withdraw your consent Updated on 30/10/2025"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "hero": {
+      "title": "La Empresa Detrás del Volcán",
+      "subtitle": "Teleférico del Pico de Teide, S.A. — el operador oficial del Teleférico del Teide y el principal proveedor de actividades en el Parque Nacional del Teide desde 1971."
+    },
+    "stats": {
+      "since": {
+        "value": "1971",
+        "label": "En funcionamiento desde"
+      },
+      "visitors": {
+        "value": "4M+",
+        "label": "Visitantes anuales"
+      },
+      "altitude": {
+        "value": "3.718m",
+        "label": "El pico más alto de España"
+      },
+      "languages": {
+        "value": "8",
+        "label": "Idiomas disponibles"
+      }
+    },
+    "story": {
+      "label": "Nuestra Historia",
+      "title": "Más de 50 Años Llevándote a la Cima",
+      "p1": "Teleférico del Pico de Teide, S.A. opera el Teleférico del Teide desde su inauguración en 1971. Durante más de cinco décadas, hemos conectado a millones de visitantes con la extraordinaria cima del pico más alto de España, el Teide (3.718 m), en el corazón del Parque Nacional del Teide.",
+      "p2": "Lo que comenzó como un audaz proyecto de ingeniería en las laderas de un volcán activo se ha convertido en una de las atracciones más emblemáticas de las Islas Canarias. Hoy somos el único sitio web especializado exclusivamente en actividades y experiencias en el Parque Nacional del Teide — desde subidas en teleférico y visitas guiadas hasta sesiones de observación de estrellas y visitas al observatorio.",
+      "p3": "Nuestro compromiso va más allá del turismo. Como guardianes de este lugar declarado Patrimonio de la Humanidad por la UNESCO, estamos dedicados a preservar el extraordinario patrimonio natural del Teide para las generaciones futuras, combinando turismo responsable con prácticas de sostenibilidad de vanguardia.",
+      "founded": "Inauguración del Teleférico"
+    },
+    "values": {
+      "label": "Nuestros Valores",
+      "title": "Lo Que Nos Impulsa",
+      "items": {
+        "solar": {
+          "title": "100% Energía Solar",
+          "description": "El Teleférico del Teide es el único teleférico de un parque nacional europeo alimentado íntegramente por energía solar. Cero emisiones, sin conexión a la red."
+        },
+        "sustainability": {
+          "title": "Responsabilidad Medioambiental",
+          "description": "Contamos con la Carta Europea de Turismo Sostenible y estamos inscritos en el Registro de Huella de Carbono de España, comprometidos con la preservación del ecosistema único del Teide."
+        },
+        "safety": {
+          "title": "La Seguridad Ante Todo",
+          "description": "Nuestro sistema de teleférico, guías y procedimientos operativos cumplen con los más altos estándares europeos de seguridad. Inspecciones periódicas y formación continua del personal garantizan tu seguridad."
+        },
+        "excellence": {
+          "title": "Excelencia en el Servicio",
+          "description": "Con una valoración media superior a 4,5 en miles de opiniones, nos esforzamos por ofrecer experiencias inolvidables a través de guías profesionales, instalaciones modernas y una atención meticulosa al detalle."
+        }
+      }
+    },
+    "sustainability": {
+      "label": "Sostenibilidad",
+      "title": "Teide Sostenible — Nuestro Compromiso",
+      "p1": "El Parque Nacional del Teide es Patrimonio de la Humanidad de la UNESCO y uno de los espacios naturales más visitados del mundo. Reconocemos nuestra responsabilidad de proteger este extraordinario entorno mientras lo compartimos con visitantes de todo el planeta.",
+      "p2": "Nuestro programa de sostenibilidad abarca la independencia energética gracias a nuestro teleférico 100% solar, iniciativas de reducción de residuos, proyectos de restauración de hábitats y programas educativos que sensibilizan sobre la geología y biodiversidad únicas del parque.",
+      "badge1": "100% Energía Solar",
+      "badge2": "Inscrito en el Registro de Huella de Carbono"
+    },
+    "certifications": {
+      "title": "Certificaciones y Reconocimientos"
+    },
+    "cta": {
+      "title": "¿Preparado para Vivir el Teide?",
+      "subtitle": "Descubre nuestras actividades y reserva hoy tu experiencia inolvidable en el Teide.",
+      "explore": "Explorar Actividades",
+      "contact": "Contacto"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes alguna pregunta sobre tu reserva, nuestras actividades o cualquier otra cosa? Estamos aquí para ayudarte.",
+    "breadcrumb": {
+      "home": "Inicio"
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "subtitle": "Rellena el formulario a continuación y te responderemos lo antes posible.",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Dirección de Correo Electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿Sobre qué es tu consulta?",
+      "bookingRef": "Referencia de Reserva (opcional)",
+      "bookingRefPlaceholder": "p. ej. VT-12345",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
+      "send": "Enviar Mensaje",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por contactar con nosotros. Responderemos a tu consulta en un plazo de 24 a 48 horas."
+    },
+    "methods": {
+      "email": {
+        "label": "Correo electrónico",
+        "value": "info@volcanoteide.com"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+34 922 01 04 40"
+      },
+      "address": {
+        "label": "Dirección",
+        "value": "Avda. de la Constitución, 12, 38005 Santa Cruz de Tenerife, España"
+      },
+      "hours": {
+        "label": "Horario de Oficina",
+        "value": "Lun–Vie: 9:00 – 17:00 (CET)"
+      }
+    },
+    "quickLinks": {
+      "title": "Ayuda Rápida",
+      "faq": "Información del Teleférico y Preguntas Frecuentes",
+      "manage": "Gestionar Tu Reserva",
+      "whatsapp": "Chatea por WhatsApp"
+    },
+    "company": {
+      "title": "Datos de la Empresa",
+      "name": "Teleférico del Pico de Teide, S.A.",
+      "cif": "CIF: A-38036294",
+      "touristId": "ID Turístico: I-003662.1",
+      "activeTourism": "Turismo Activo: TA-4-0026247"
+    }
+  },
+  "booking": {
+    "selectDate": "Seleccionar fecha",
+    "chooseDatePlaceholder": "Elige tu fecha...",
+    "guests": "Participantes",
+    "adults": "Adultos",
+    "adultsAge": "Mayores de 13 años",
+    "children": "Niños",
+    "childrenAge": "De 3 a 12 años",
+    "adult": "Adulto",
+    "child": "Niño",
+    "total": "Total",
+    "selectDateToBook": "Selecciona una fecha para reservar",
+    "freeCancellation": "Cancelación gratuita hasta 24 horas antes",
+    "securePayment": "Pago seguro — Cifrado SSL"
+  },
+  "manageBooking": {
+    "title": "Gestionar tu reserva",
+    "subtitle": "Consulta, modifica o cancela tu reserva existente",
+    "breadcrumb": {
+      "home": "Inicio"
+    },
+    "search": {
+      "title": "Buscar tu reserva",
+      "subtitle": "Introduce tu número de referencia de reserva y el correo electrónico que utilizaste al realizar la reserva.",
+      "reference": "Referencia de reserva",
+      "referencePlaceholder": "ej. VT-2025-38472",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "button": "Buscar reserva"
+    },
+    "result": {
+      "found": "Reserva encontrada",
+      "reference": "Referencia",
+      "confirmed": "Confirmada",
+      "date": "Fecha y hora",
+      "guests": "Participantes",
+      "adults": "adultos",
+      "children": "niños",
+      "meetingPoint": "Punto de encuentro",
+      "service": "Actividad",
+      "total": "Total pagado"
+    },
+    "actions": {
+      "modify": "Modificar reserva",
+      "modifyDesc": "Cambiar fecha o número de participantes",
+      "cancel": "Cancelar reserva",
+      "cancelDesc": "Solicitar reembolso completo",
+      "searchAnother": "← Buscar otra reserva"
+    },
+    "notFound": {
+      "title": "Reserva no encontrada",
+      "message": "No hemos encontrado ninguna reserva con la referencia y el correo electrónico proporcionados. Por favor, comprueba los datos e inténtalo de nuevo, o contacta con nosotros.",
+      "tryAgain": "Intentar de nuevo",
+      "contact": "Contactar"
+    },
+    "policy": {
+      "title": "Política de cancelación",
+      "free": "Cancelación gratuita y reembolso completo hasta 24 horas antes de la hora de inicio programada de tu actividad.",
+      "late": "Las cancelaciones realizadas con menos de 24 horas de antelación tendrán un cargo del 100% del importe de la reserva."
+    },
+    "help": {
+      "title": "¿Necesitas ayuda?",
+      "subtitle": "Nuestro equipo de atención al cliente está aquí para ayudarte con cualquier consulta sobre tu reserva."
+    }
+  }
+}
