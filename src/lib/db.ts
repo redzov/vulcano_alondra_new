@@ -3,8 +3,12 @@ import path from "path";
 import fs from "fs";
 
 const DATA_DIR = path.join(process.cwd(), "data");
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch {
+  // Read-only filesystem (e.g. Vercel serverless) — DB will be unavailable
 }
 
 const DB_PATH = path.join(DATA_DIR, "teide.db");

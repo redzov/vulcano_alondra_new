@@ -737,6 +737,15 @@ export function getServicesByCategory(category: Service["category"]): Service[] 
 
 export const allServiceSlugs = services.map((s) => s.slug);
 
+export async function getServiceTextOverrides(slug: string): Promise<import("./db").ServiceDataOverride | null> {
+  try {
+    const { getServiceData } = await import("./db");
+    return getServiceData(slug);
+  } catch {
+    return null;
+  }
+}
+
 export async function getServiceWithOverrides(slug: string): Promise<Service | undefined> {
   const base = getServiceBySlug(slug);
   if (!base) return undefined;

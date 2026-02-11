@@ -1,8 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
-import { getServiceBySlug, getRelatedServices, allServiceSlugs, getServiceWithOverrides } from "@/lib/services";
-import { getServiceData } from "@/lib/db";
+import { getServiceBySlug, getRelatedServices, allServiceSlugs, getServiceWithOverrides, getServiceTextOverrides } from "@/lib/services";
 import ServicePageClient from "./ServicePageClient";
 
 type Props = {
@@ -19,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return {};
 
   const t = await getTranslations({ locale });
-  const textOverrides = getServiceData(slug);
+  const textOverrides = await getServiceTextOverrides(slug);
   const title = textOverrides?.title || t(service.titleKey);
   const description = (textOverrides?.shortDescription || t(service.descriptionKey)).slice(0, 160);
 
@@ -66,7 +65,7 @@ export default async function ServicePage({ params }: Props) {
   const t = await getTranslations({ locale });
 
   // Get text overrides from DB (apply for all locales as admin-managed content)
-  const textOverrides = getServiceData(slug);
+  const textOverrides = await getServiceTextOverrides(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
