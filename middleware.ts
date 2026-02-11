@@ -4,5 +4,5 @@ import { routing } from "./src/i18n/routing";
 export default createMiddleware(routing);
 
 export const config = {
-  matcher: ["/((?!api|_next|images|favicon|.*\\..*).*)"],
+  matcher: ["/((?!api|_next|images|favicon|ddddadminkasjsjsjs|.*\\..*).*)"],
 };

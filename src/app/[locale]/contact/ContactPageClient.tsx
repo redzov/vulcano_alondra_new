@@ -22,7 +22,7 @@ const contactMethods = [
   {
     icon: Mail,
     key: "email",
-    href: "mailto:info@volcanoteide.com",
+    href: "mailto:info@teideexplorer.com",
   },
   {
     icon: Phone,

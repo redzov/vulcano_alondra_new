@@ -127,7 +127,7 @@ export default function InfoPageClient({ page }: InfoPageClientProps) {
           <Button
             asChild
             variant="outline"
-            className="rounded-full border-white text-white hover:bg-white hover:text-volcano px-8 py-6 text-base font-semibold"
+            className="rounded-full border-white bg-transparent text-white hover:bg-white hover:text-volcano px-8 py-6 text-base font-semibold"
           >
             <Link href="/services/teide-cable-car">
               {t("common.seeAll")} Activities →

@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale });
 
   return {
-    title: `${t("header.nav.activities")} | Volcano Teide`,
+    title: `${t("header.nav.activities")} | Teide Explorer`,
   };
 }
 

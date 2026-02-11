@@ -21,13 +21,32 @@ import ServiceCard from "@/components/services/ServiceCard";
 import StickyBookingBar from "@/components/services/StickyBookingBar";
 import type { Service } from "@/lib/services";
 
+interface TextOverrides {
+  title?: string;
+  shortDescription?: string;
+  description?: string;
+  fullDescription?: string;
+  highlights?: string[];
+  includes?: string[];
+  notIncluded?: string[];
+  restrictions?: string[];
+  importantInfo?: string[];
+  prepare?: string[];
+}
+
 interface ServicePageClientProps {
   service: Service;
   relatedServices: Service[];
+  textOverrides?: TextOverrides | null;
 }
 
-export default function ServicePageClient({ service, relatedServices }: ServicePageClientProps) {
+export default function ServicePageClient({ service, relatedServices, textOverrides }: ServicePageClientProps) {
   const t = useTranslations();
+
+  // Helper: use text override if available, otherwise fall back to translation key
+  const text = (override: string | undefined, key: string) => override || t(key);
+  const textArray = (overrides: string[] | undefined, keys: string[]) =>
+    overrides && overrides.length > 0 ? overrides : keys.map((k) => t(k));
 
   return (
     <>
@@ -44,7 +63,7 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
             </Link>
             <ChevronRight className="h-3.5 w-3.5" />
             <span className="text-text-primary font-medium truncate">
-              {t(service.titleKey)}
+              {text(textOverrides?.title, service.titleKey)}
             </span>
           </nav>
         </div>
@@ -60,7 +79,7 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <ServiceGallery images={service.images} title={t(service.titleKey)} />
+              <ServiceGallery images={service.images} title={text(textOverrides?.title, service.titleKey)} />
             </motion.div>
 
             {/* Title + short description */}
@@ -70,10 +89,10 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <h1 className="font-[family-name:var(--font-jakarta)] text-3xl sm:text-4xl font-bold text-text-primary">
-                {t(service.titleKey)}
+                {text(textOverrides?.title, service.titleKey)}
               </h1>
               <p className="mt-3 text-text-secondary text-lg leading-relaxed">
-                {t(service.shortDescriptionKey)}
+                {text(textOverrides?.shortDescription, service.shortDescriptionKey)}
               </p>
             </motion.div>
 
@@ -87,7 +106,7 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
             </motion.div>
 
             {/* Highlights */}
-            {service.highlightsKeys.length > 0 && (
+            {(textOverrides?.highlights?.length || service.highlightsKeys.length > 0) && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -99,12 +118,12 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
                   Highlights
                 </h2>
                 <ul className="space-y-2.5">
-                  {service.highlightsKeys.map((key, i) => (
+                  {textArray(textOverrides?.highlights, service.highlightsKeys).map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <div className="mt-0.5 w-5 h-5 rounded-full bg-volcano/10 flex items-center justify-center flex-shrink-0">
                         <Check className="h-3 w-3 text-volcano" />
                       </div>
-                      <span className="text-text-secondary text-sm">{t(key)}</span>
+                      <span className="text-text-secondary text-sm">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -149,7 +168,7 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
                 <TabsContent value="description" className="mt-6">
                   <div className="prose prose-gray max-w-none">
                     <p className="text-text-secondary leading-relaxed text-base whitespace-pre-line">
-                      {t(service.fullDescriptionKey)}
+                      {text(textOverrides?.fullDescription, service.fullDescriptionKey)}
                     </p>
                   </div>
                 </TabsContent>
@@ -162,30 +181,30 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
                       Included
                     </h3>
                     <ul className="space-y-3">
-                      {service.includesKeys.map((key, i) => (
+                      {textArray(textOverrides?.includes, service.includesKeys).map((item, i) => (
                         <li key={i} className="flex items-start gap-3">
                           <div className="mt-0.5 w-5 h-5 rounded-full bg-success/10 flex items-center justify-center flex-shrink-0">
                             <Check className="h-3 w-3 text-success" />
                           </div>
-                          <span className="text-text-secondary">{t(key)}</span>
+                          <span className="text-text-secondary">{item}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
 
                   {/* Not Included */}
-                  {service.notIncludedKeys.length > 0 && (
+                  {(textOverrides?.notIncluded?.length || service.notIncludedKeys.length > 0) && (
                     <div>
                       <h3 className="font-[family-name:var(--font-jakarta)] font-semibold text-text-primary mb-4">
                         Not Included
                       </h3>
                       <ul className="space-y-3">
-                        {service.notIncludedKeys.map((key, i) => (
+                        {textArray(textOverrides?.notIncluded, service.notIncludedKeys).map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <div className="mt-0.5 w-5 h-5 rounded-full bg-red-50 flex items-center justify-center flex-shrink-0">
                               <X className="h-3 w-3 text-red-500" />
                             </div>
-                            <span className="text-text-secondary">{t(key)}</span>
+                            <span className="text-text-secondary">{item}</span>
                           </li>
                         ))}
                       </ul>
@@ -196,12 +215,12 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
                 {/* Restrictions Tab */}
                 <TabsContent value="restrictions" className="mt-6">
                   <ul className="space-y-3">
-                    {service.restrictionsKeys.map((key, i) => (
+                    {textArray(textOverrides?.restrictions, service.restrictionsKeys).map((item, i) => (
                       <li key={i} className="flex items-start gap-3">
                         <div className="mt-0.5 w-5 h-5 rounded-full bg-yellow-50 flex items-center justify-center flex-shrink-0">
                           <ShieldAlert className="h-3 w-3 text-yellow-600" />
                         </div>
-                        <span className="text-text-secondary">{t(key)}</span>
+                        <span className="text-text-secondary">{item}</span>
                       </li>
                     ))}
                   </ul>
@@ -210,30 +229,30 @@ export default function ServicePageClient({ service, relatedServices }: ServiceP
                 {/* Important Info Tab */}
                 <TabsContent value="info" className="mt-6 space-y-8">
                   <ul className="space-y-3">
-                    {service.importantInfoKeys.map((key, i) => (
+                    {textArray(textOverrides?.importantInfo, service.importantInfoKeys).map((item, i) => (
                       <li key={i} className="flex items-start gap-3">
                         <div className="mt-0.5 w-5 h-5 rounded-full bg-volcano/10 flex items-center justify-center flex-shrink-0">
                           <AlertCircle className="h-3 w-3 text-volcano" />
                         </div>
-                        <span className="text-text-secondary">{t(key)}</span>
+                        <span className="text-text-secondary">{item}</span>
                       </li>
                     ))}
                   </ul>
 
                   {/* What to Bring / Prepare */}
-                  {service.prepareKeys.length > 0 && (
+                  {(textOverrides?.prepare?.length || service.prepareKeys.length > 0) && (
                     <div>
                       <h3 className="font-[family-name:var(--font-jakarta)] font-semibold text-text-primary mb-4 flex items-center gap-2">
                         <Backpack className="h-4 w-4 text-volcano" />
                         What to Bring
                       </h3>
                       <ul className="space-y-3">
-                        {service.prepareKeys.map((key, i) => (
+                        {textArray(textOverrides?.prepare, service.prepareKeys).map((item, i) => (
                           <li key={i} className="flex items-start gap-3">
                             <div className="mt-0.5 w-5 h-5 rounded-full bg-blue-50 flex items-center justify-center flex-shrink-0">
                               <Check className="h-3 w-3 text-blue-600" />
                             </div>
-                            <span className="text-text-secondary">{t(key)}</span>
+                            <span className="text-text-secondary">{item}</span>
                           </li>
                         ))}
                       </ul>

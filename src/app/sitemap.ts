@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { allServiceSlugs } from "@/lib/services";
 import { infoPages, legalPages } from "@/lib/pages";
 
-const SITE_URL = "https://www.volcanoteide.com";
+const SITE_URL = "https://www.teideexplorer.com";
 const locales = ["en", "es", "de", "fr", "nl", "pl"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

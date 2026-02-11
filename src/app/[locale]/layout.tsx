@@ -20,13 +20,13 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://www.volcanoteide.com";
+const SITE_URL = "https://www.teideexplorer.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Volcano Teide — Activities & Tours on Mount Teide, Tenerife",
-    template: "%s | Volcano Teide",
+    default: "Teide Explorer — Activities & Tours on Mount Teide, Tenerife",
+    template: "%s | Teide Explorer",
   },
   description:
     "The only website specialised in activities and tours in Teide National Park. Cable car, hiking, stargazing, observatory visits and more.",
@@ -42,17 +42,17 @@ export const metadata: Metadata = {
     "Teide observatory",
     "Canary Islands",
   ],
-  authors: [{ name: "Volcano Teide Experience" }],
+  authors: [{ name: "Teide Explorer" }],
   creator: "Teleferico del Pico del Teide, S.A.",
-  publisher: "Volcano Teide",
+  publisher: "Teide Explorer",
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/favicon.svg", type: "image/svg+xml" }],
     apple: "/images/logos/apple-touch-icon.png",
   },
   openGraph: {
     type: "website",
-    siteName: "Volcano Teide",
-    title: "Volcano Teide — Activities & Tours on Mount Teide, Tenerife",
+    siteName: "Teide Explorer",
+    title: "Teide Explorer — Activities & Tours on Mount Teide, Tenerife",
     description:
       "The only website specialised in activities and tours in Teide National Park. Cable car, hiking, stargazing, observatory visits and more.",
     images: [
@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@VolcanoTeide",
-    title: "Volcano Teide — Activities & Tours on Mount Teide",
+    site: "@TeideExplorer",
+    title: "Teide Explorer — Activities & Tours on Mount Teide",
     description:
       "Cable car, hiking, stargazing and more in Teide National Park, Tenerife.",
     images: ["/images/hero/banner-corporate-4.jpg"],
@@ -117,7 +117,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
-    name: "Volcano Teide",
+    name: "Teide Explorer",
     description:
       "Activities and tours on Mount Teide, Tenerife — cable car, hiking, stargazing, observatory visits.",
     url: SITE_URL,
@@ -135,7 +135,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       longitude: -16.6424,
     },
     telephone: "+34922010444",
-    email: "info@volcanoteide.com",
+    email: "info@teideexplorer.com",
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://www.volcanoteide.com/sitemap.xml",
+    sitemap: "https://www.teideexplorer.com/sitemap.xml",
   };
 }

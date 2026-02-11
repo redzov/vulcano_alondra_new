@@ -51,6 +51,12 @@ export default function BookingSearchBar() {
 
   const dateLocale = dateLocales[locale] || enUS;
 
+  const [today] = useState(() => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  });
+
   const handleSearch = () => {
     const params = new URLSearchParams();
     if (category) params.set("category", category);
@@ -142,7 +148,7 @@ export default function BookingSearchBar() {
                     setDateTo(undefined);
                   }
                 }}
-                disabled={{ before: new Date() }}
+                disabled={{ before: today }}
                 locale={dateLocale}
               />
             </PopoverContent>
@@ -172,7 +178,7 @@ export default function BookingSearchBar() {
                   setDateTo(date);
                   setToOpen(false);
                 }}
-                disabled={{ before: dateFrom || new Date() }}
+                disabled={{ before: dateFrom || today }}
                 locale={dateLocale}
               />
             </PopoverContent>

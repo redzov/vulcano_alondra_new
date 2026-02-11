@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale });
 
   return {
-    title: `${t("about.title")} | Volcano Teide`,
+    title: `${t("about.title")} | Teide Explorer`,
     description: t("about.hero.subtitle"),
     alternates: {
       languages: {

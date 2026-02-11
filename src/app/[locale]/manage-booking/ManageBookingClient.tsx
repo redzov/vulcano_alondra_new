@@ -9,7 +9,6 @@ import {
   ChevronRight,
   Calendar,
   Users,
-  MapPin,
   Clock,
   Mail,
   Phone,
@@ -24,18 +23,21 @@ import { Input } from "@/components/ui/input";
 
 type BookingStatus = "idle" | "searching" | "found" | "not_found";
 
-// Demo booking data for presentation purposes
-const demoBooking = {
-  reference: "VT-2025-38472",
-  status: "confirmed",
-  service: "Teide Cable Car Tickets",
-  date: "2025-03-15",
-  time: "10:30",
-  adults: 2,
-  children: 1,
-  total: 58.75,
-  meetingPoint: "Teide Cable Car base station, TF-21 motorway, km 43",
-};
+interface BookingData {
+  reference: string;
+  serviceSlug: string;
+  date: string;
+  adults: number;
+  children: number;
+  firstName: string;
+  lastName: string;
+  email: string;
+  totalPrice: number;
+  status: string;
+  paymentStatus: string;
+  hotel: string | null;
+  createdAt: string;
+}
 
 export default function ManageBookingClient() {
   const t = useTranslations("manageBooking");
@@ -44,28 +46,38 @@ export default function ManageBookingClient() {
   const [bookingRef, setBookingRef] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<BookingStatus>("idle");
+  const [booking, setBooking] = useState<BookingData | null>(null);
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!bookingRef.trim() || !email.trim()) return;
 
     setStatus("searching");
-    // Simulate API call
-    setTimeout(() => {
-      // Demo: show found if ref matches pattern, not_found otherwise
-      if (bookingRef.toUpperCase().startsWith("VT-")) {
+    setBooking(null);
+
+    try {
+      const res = await fetch(`/api/bookings/${encodeURIComponent(bookingRef.trim())}?email=${encodeURIComponent(email.trim())}`);
+      if (res.ok) {
+        const data = await res.json();
+        setBooking(data);
         setStatus("found");
       } else {
         setStatus("not_found");
       }
-    }, 1500);
+    } catch {
+      setStatus("not_found");
+    }
   };
 
   const handleReset = () => {
     setStatus("idle");
     setBookingRef("");
     setEmail("");
+    setBooking(null);
   };
+
+  const formatServiceSlug = (slug: string) =>
+    slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
   return (
     <>
@@ -167,6 +179,7 @@ export default function ManageBookingClient() {
                   className="space-y-6"
                 >
                   {/* Booking Found */}
+                  {booking && (
                   <div className="rounded-2xl bg-white shadow-lg border border-gray-100 p-8">
                     <div className="flex items-center gap-3 mb-6">
                       <div className="w-10 h-10 rounded-full bg-success/10 flex items-center justify-center">
@@ -177,15 +190,24 @@ export default function ManageBookingClient() {
                           {t("result.found")}
                         </h2>
                         <p className="text-sm text-text-secondary">
-                          {t("result.reference")}: <span className="font-mono font-semibold">{demoBooking.reference}</span>
+                          {t("result.reference")}: <span className="font-mono font-semibold">{booking.reference}</span>
                         </p>
                       </div>
                     </div>
 
                     {/* Status Badge */}
-                    <div className="inline-flex items-center gap-2 rounded-full bg-success/10 px-4 py-1.5 mb-6">
-                      <div className="w-2 h-2 rounded-full bg-success" />
-                      <span className="text-sm font-semibold text-success">{t("result.confirmed")}</span>
+                    <div className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 mb-6 ${
+                      booking.status === "confirmed" ? "bg-success/10" :
+                      booking.status === "cancelled" ? "bg-red-50" : "bg-yellow-50"
+                    }`}>
+                      <div className={`w-2 h-2 rounded-full ${
+                        booking.status === "confirmed" ? "bg-success" :
+                        booking.status === "cancelled" ? "bg-red-500" : "bg-yellow-500"
+                      }`} />
+                      <span className={`text-sm font-semibold ${
+                        booking.status === "confirmed" ? "text-success" :
+                        booking.status === "cancelled" ? "text-red-500" : "text-yellow-600"
+                      }`}>{booking.status}</span>
                     </div>
 
                     {/* Booking Details */}
@@ -194,7 +216,7 @@ export default function ManageBookingClient() {
                         <Calendar className="h-5 w-5 text-volcano mt-0.5 flex-shrink-0" />
                         <div>
                           <p className="text-sm font-semibold text-text-primary">{t("result.date")}</p>
-                          <p className="text-sm text-text-secondary">{demoBooking.date} — {demoBooking.time}</p>
+                          <p className="text-sm text-text-secondary">{booking.date}</p>
                         </div>
                       </div>
 
@@ -203,17 +225,9 @@ export default function ManageBookingClient() {
                         <div>
                           <p className="text-sm font-semibold text-text-primary">{t("result.guests")}</p>
                           <p className="text-sm text-text-secondary">
-                            {demoBooking.adults} {t("result.adults")}
-                            {demoBooking.children > 0 && `, ${demoBooking.children} ${t("result.children")}`}
+                            {booking.adults} {t("result.adults")}
+                            {booking.children > 0 && `, ${booking.children} ${t("result.children")}`}
                           </p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-start gap-4 p-4 rounded-xl bg-warm-bg">
-                        <MapPin className="h-5 w-5 text-volcano mt-0.5 flex-shrink-0" />
-                        <div>
-                          <p className="text-sm font-semibold text-text-primary">{t("result.meetingPoint")}</p>
-                          <p className="text-sm text-text-secondary">{demoBooking.meetingPoint}</p>
                         </div>
                       </div>
 
@@ -221,7 +235,7 @@ export default function ManageBookingClient() {
                         <Clock className="h-5 w-5 text-volcano mt-0.5 flex-shrink-0" />
                         <div>
                           <p className="text-sm font-semibold text-text-primary">{t("result.service")}</p>
-                          <p className="text-sm text-text-secondary">{demoBooking.service}</p>
+                          <p className="text-sm text-text-secondary">{formatServiceSlug(booking.serviceSlug)}</p>
                         </div>
                       </div>
                     </div>
@@ -230,10 +244,11 @@ export default function ManageBookingClient() {
                     <div className="mt-6 pt-6 border-t border-gray-200 flex justify-between items-center">
                       <span className="text-sm font-semibold text-text-primary">{t("result.total")}</span>
                       <span className="text-2xl font-bold text-volcano font-[family-name:var(--font-jakarta)]">
-                        €{demoBooking.total.toFixed(2)}
+                        &euro;{booking.totalPrice.toFixed(2)}
                       </span>
                     </div>
                   </div>
+                  )}
 
                   {/* Action Buttons */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -335,11 +350,11 @@ export default function ManageBookingClient() {
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:info@volcanoteide.com"
+                    href="mailto:info@teideexplorer.com"
                     className="flex items-center gap-3 text-sm text-text-secondary hover:text-volcano transition-colors"
                   >
                     <Mail className="h-4 w-4" />
-                    info@volcanoteide.com
+                    info@teideexplorer.com
                   </a>
                   <a
                     href="tel:+34922010440"

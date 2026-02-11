@@ -395,7 +395,7 @@ export const services: Service[] = [
       "services.astronomical-observation.prepare.2",
       "services.astronomical-observation.prepare.3",
     ],
-    meetingPoint: "Teide Cable Car base station car park, TF-21 motorway km 43. Coordinates: 28.254448, -16.625747. Wait for a member of the Volcano Teide team at the closed access gate.",
+    meetingPoint: "Teide Cable Car base station car park, TF-21 motorway km 43. Coordinates: 28.254448, -16.625747. Wait for a member of the Teide Explorer team at the closed access gate.",
     relatedSlugs: ["sunset-and-stars", "astronomic-tour", "mount-teide-night-tour"],
   },
 
@@ -736,3 +736,30 @@ export function getServicesByCategory(category: Service["category"]): Service[] 
 }
 
 export const allServiceSlugs = services.map((s) => s.slug);
+
+export async function getServiceWithOverrides(slug: string): Promise<Service | undefined> {
+  const base = getServiceBySlug(slug);
+  if (!base) return undefined;
+  try {
+    // Dynamic import to avoid bundling DB in client code
+    const { getServiceOverride, getServiceData } = await import("./db");
+    const override = getServiceOverride(slug);
+    if (!override) return base;
+
+    const data = getServiceData(slug);
+    return {
+      ...base,
+      ...(override.price != null && { price: override.price }),
+      ...(override.images_json && { images: JSON.parse(override.images_json) }),
+      // Merge non-text overrides that apply to all locales
+      ...(data?.duration && { duration: data.duration }),
+      ...(data?.difficulty && { difficulty: data.difficulty as Service["difficulty"] }),
+      ...(data?.rating != null && { rating: data.rating }),
+      ...(data?.reviewCount != null && { reviewCount: data.reviewCount }),
+      ...(data?.languages && { languages: data.languages }),
+      ...(data?.meetingPoint && { meetingPoint: data.meetingPoint }),
+    };
+  } catch {
+    return base;
+  }
+}

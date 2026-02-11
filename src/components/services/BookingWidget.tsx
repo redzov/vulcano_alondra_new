@@ -20,6 +20,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { useRouter } from "@/i18n/navigation";
 import type { Service } from "@/lib/services";
 
 interface BookingWidgetProps {
@@ -39,6 +40,7 @@ export default function BookingWidget({ service }: BookingWidgetProps) {
   const t = useTranslations();
   const tb = useTranslations("booking");
   const locale = useLocale();
+  const router = useRouter();
 
   const [selectedDate, setSelectedDate] = useState<Date | undefined>();
   const [adults, setAdults] = useState(2);
@@ -52,17 +54,23 @@ export default function BookingWidget({ service }: BookingWidgetProps) {
     [adults, children, service.price]
   );
 
-  const tomorrow = new Date();
-  tomorrow.setDate(tomorrow.getDate() + 1);
+  const [today] = useState(() => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  });
 
   const dateLocale = localeMap[locale] || enUS;
 
   const handleBook = () => {
     if (!selectedDate) return;
-    // Placeholder — FareHarbor integration will replace this
-    alert(
-      `Booking confirmed!\n\nService: ${service.slug}\nDate: ${format(selectedDate, "PPP", { locale: dateLocale })}\nAdults: ${adults}\nChildren: ${children}\nTotal: €${totalPrice.toFixed(2)}\n\nThis is a demo. FareHarbor integration coming soon.`
-    );
+    const params = new URLSearchParams({
+      service: service.slug,
+      date: format(selectedDate, "yyyy-MM-dd"),
+      adults: adults.toString(),
+      children: children.toString(),
+    });
+    router.push(`/checkout?${params.toString()}`);
   };
 
   return (
@@ -103,7 +111,7 @@ export default function BookingWidget({ service }: BookingWidgetProps) {
                 setSelectedDate(date);
                 setDateOpen(false);
               }}
-              disabled={(date) => date < tomorrow}
+              disabled={(date) => date < today}
               locale={dateLocale}
             />
           </PopoverContent>

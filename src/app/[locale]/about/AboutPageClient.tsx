@@ -268,7 +268,7 @@ export default function AboutPageClient() {
             <Button
               asChild
               variant="outline"
-              className="rounded-full border-white text-white hover:bg-white hover:text-volcano px-8 py-6 text-base font-semibold"
+              className="rounded-full border-white bg-transparent text-white hover:bg-white hover:text-volcano px-8 py-6 text-base font-semibold"
             >
               <Link href="/contact">
                 {t("cta.contact")}

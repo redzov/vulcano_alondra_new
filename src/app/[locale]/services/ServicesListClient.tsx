@@ -88,6 +88,12 @@ export default function ServicesListClient({
   const pathname = usePathname();
   const dateLocale = dateLocales[locale] || enUS;
 
+  const [today] = useState(() => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  });
+
   // Initialize from URL params
   const initialCategories = searchParams.get("category")
     ? searchParams.get("category")!.split(",")
@@ -281,31 +287,23 @@ export default function ServicesListClient({
         </AccordionTrigger>
         <AccordionContent>
           <div className="space-y-2.5">
-            {CATEGORY_KEYS.map((key) => {
-              const matchCount = services.filter(
-                (s) => s.category === key
-              ).length;
-              return (
-                <label
-                  key={key}
-                  className={`flex items-start gap-2.5 cursor-pointer text-sm ${
-                    matchCount === 0
-                      ? "opacity-50 cursor-not-allowed"
-                      : ""
-                  }`}
-                >
-                  <Checkbox
-                    checked={selectedCategories.includes(key)}
-                    onCheckedChange={() => toggleCategory(key)}
-                    disabled={matchCount === 0}
-                    className="mt-0.5 data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
-                  />
-                  <span className="leading-snug">
-                    {t(`categories.items.${key}.name`)}
-                  </span>
-                </label>
-              );
-            })}
+            {CATEGORY_KEYS.filter(
+              (key) => services.some((s) => s.category === key)
+            ).map((key) => (
+              <label
+                key={key}
+                className="flex items-start gap-2.5 cursor-pointer text-sm"
+              >
+                <Checkbox
+                  checked={selectedCategories.includes(key)}
+                  onCheckedChange={() => toggleCategory(key)}
+                  className="mt-0.5 data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
+                />
+                <span className="leading-snug">
+                  {t(`categories.items.${key}.name`)}
+                </span>
+              </label>
+            ))}
           </div>
         </AccordionContent>
       </AccordionItem>
@@ -317,7 +315,9 @@ export default function ServicesListClient({
         </AccordionTrigger>
         <AccordionContent>
           <div className="space-y-2.5">
-            {ALL_LANGUAGES.map((lang) => (
+            {ALL_LANGUAGES.filter(
+              (lang) => services.some((s) => s.languages.includes(lang))
+            ).map((lang) => (
               <label
                 key={lang}
                 className="flex items-center gap-2.5 cursor-pointer text-sm"
@@ -366,7 +366,11 @@ export default function ServicesListClient({
         </AccordionTrigger>
         <AccordionContent>
           <div className="space-y-2.5">
-            {DURATION_BUCKETS.map((bucket) => (
+            {DURATION_BUCKETS.filter((bucket) =>
+              services.some(
+                (s) => getDurationBucket(parseDurationMinutes(s.duration)) === bucket.key
+              )
+            ).map((bucket) => (
               <label
                 key={bucket.key}
                 className="flex items-center gap-2.5 cursor-pointer text-sm"
@@ -390,22 +394,26 @@ export default function ServicesListClient({
         </AccordionTrigger>
         <AccordionContent>
           <div className="space-y-2.5">
-            <label className="flex items-center gap-2.5 cursor-pointer text-sm">
-              <Checkbox
-                checked={selectedPickups.includes("pickup")}
-                onCheckedChange={() => togglePickup("pickup")}
-                className="data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
-              />
-              <span>{t("servicesPage.hotelPickup")}</span>
-            </label>
-            <label className="flex items-center gap-2.5 cursor-pointer text-sm">
-              <Checkbox
-                checked={selectedPickups.includes("self")}
-                onCheckedChange={() => togglePickup("self")}
-                className="data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
-              />
-              <span>{t("servicesPage.selfArrival")}</span>
-            </label>
+            {services.some((s) => s.meetingPoint.toLowerCase().includes("pick-up")) && (
+              <label className="flex items-center gap-2.5 cursor-pointer text-sm">
+                <Checkbox
+                  checked={selectedPickups.includes("pickup")}
+                  onCheckedChange={() => togglePickup("pickup")}
+                  className="data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
+                />
+                <span>{t("servicesPage.hotelPickup")}</span>
+              </label>
+            )}
+            {services.some((s) => !s.meetingPoint.toLowerCase().includes("pick-up")) && (
+              <label className="flex items-center gap-2.5 cursor-pointer text-sm">
+                <Checkbox
+                  checked={selectedPickups.includes("self")}
+                  onCheckedChange={() => togglePickup("self")}
+                  className="data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
+                />
+                <span>{t("servicesPage.selfArrival")}</span>
+              </label>
+            )}
           </div>
         </AccordionContent>
       </AccordionItem>
@@ -496,7 +504,7 @@ export default function ServicesListClient({
                     if (date && dateTo && date > dateTo)
                       setDateTo(undefined);
                   }}
-                  disabled={{ before: new Date() }}
+                  disabled={{ before: today }}
                   locale={dateLocale}
                 />
               </PopoverContent>
@@ -528,7 +536,7 @@ export default function ServicesListClient({
                     setDateTo(date);
                     setToOpen(false);
                   }}
-                  disabled={{ before: dateFrom || new Date() }}
+                  disabled={{ before: dateFrom || today }}
                   locale={dateLocale}
                 />
               </PopoverContent>

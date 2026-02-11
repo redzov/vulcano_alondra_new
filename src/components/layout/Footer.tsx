@@ -1,9 +1,8 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Mail, Phone, MapPin, ArrowUp } from "lucide-react";
+import { Mail, ArrowUp } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
@@ -41,7 +40,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@volcanoteide.com"
+                  href="mailto:info@teideexplorer.com"
                   className="flex items-center gap-2 text-gray-300 hover:text-volcano transition-colors text-sm"
                 >
                   <Mail className="h-4 w-4" />
@@ -115,15 +114,23 @@ export default function Footer() {
               {t("social.title")}
             </h3>
             <div className="flex gap-3 mb-8">
-              {["facebook", "instagram", "youtube", "tiktok", "x"].map((social) => (
+              {[
+                { name: "facebook", url: "https://www.facebook.com/VolcanoTeideExperience" },
+                { name: "instagram", url: "https://www.instagram.com/volcanoteide" },
+                { name: "youtube", url: "https://www.youtube.com/c/VolcanoTeideExperience" },
+                { name: "tiktok", url: "https://www.tiktok.com/@volcano_teide" },
+                { name: "x", url: "https://twitter.com/VolcanoTeide" },
+              ].map((social) => (
                 <a
-                  key={social}
-                  href="#"
+                  key={social.name}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-volcano transition-colors"
-                  aria-label={social}
+                  aria-label={social.name}
                 >
                   <span className="text-sm font-medium uppercase">
-                    {social[0]}
+                    {social.name[0]}
                   </span>
                 </a>
               ))}
@@ -153,28 +160,21 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-gray-400 text-center md:text-left">
-              <p>© {new Date().getFullYear()} {t("copyright")}</p>
-              <p className="mt-1">{t("touristId")} · {t("activeTourism")}</p>
+              <p>&copy; 2026 {t("copyright")}</p>
             </div>
 
             {/* Payment Methods */}
             <div className="flex items-center gap-4">
               <span className="text-xs text-gray-400">{t("securePayment")}</span>
-              <div className="flex gap-2">
-                <Image
-                  src="/images/payments/credit-card-small-amex.png"
-                  alt="American Express"
-                  width={40}
-                  height={25}
-                  className="h-6 w-auto opacity-70"
-                />
-                <Image
-                  src="/images/payments/ideal-sofort-bancontact.png"
-                  alt="iDEAL / SOFORT"
-                  width={80}
-                  height={25}
-                  className="h-6 w-auto opacity-70"
-                />
+              <div className="flex gap-1.5">
+                {["Visa", "Mastercard", "PayPal", "Maestro", "Amex", "iDEAL", "Bancontact"].map((name) => (
+                  <span
+                    key={name}
+                    className="px-2 py-1 rounded bg-white/10 text-[10px] font-medium text-gray-300 leading-none"
+                  >
+                    {name}
+                  </span>
+                ))}
               </div>
             </div>
 
