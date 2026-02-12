@@ -99,7 +99,7 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
     if (!lastName.trim()) newErrors.lastName = true;
     if (!email.trim() || !email.includes("@")) newErrors.email = true;
     if (!phone.trim()) newErrors.phone = true;
-    if (hasPickup && !noTransfer && !hotel) newErrors.hotel = true;
+    // Hotel is always optional — we contact the customer to arrange pick-up
     if (!acceptTerms) newErrors.acceptTerms = true;
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -351,11 +351,7 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
                     <div className="relative">
                       <button
                         onClick={() => setHotelOpen(!hotelOpen)}
-                        className={`w-full flex items-center justify-between h-11 px-4 rounded-xl border text-left text-sm transition-colors ${
-                          errors.hotel
-                            ? "border-red-400 ring-1 ring-red-400"
-                            : "border-gray-200 hover:border-gray-300"
-                        }`}
+                        className="w-full flex items-center justify-between h-11 px-4 rounded-xl border text-left text-sm transition-colors border-gray-200 hover:border-gray-300"
                       >
                         <span className={hotel ? "text-text-primary" : "text-gray-400"}>
                           {hotel || tc("selectHotel")}
@@ -370,7 +366,6 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
                               onClick={() => {
                                 setHotel(h);
                                 setHotelOpen(false);
-                                setErrors((p) => ({ ...p, hotel: false }));
                               }}
                               className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-50 transition-colors ${
                                 hotel === h ? "bg-volcano/5 text-volcano font-medium" : "text-text-primary"
@@ -382,7 +377,6 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
                         </div>
                       )}
                     </div>
-                    {errors.hotel && <p className="text-xs text-red-500 mt-1">{tc("required")}</p>}
                   </div>
                 )}
               </div>
