@@ -4,8 +4,15 @@ import { hashPassword } from "../src/lib/auth";
 import { services } from "../src/lib/services";
 import en from "../src/messages/en.json";
 
-const ADMIN_USERNAME = process.env.ADMIN_USERNAME || "t3xpl_admin";
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Kx9$mWzP#2dLxjF4rZs";
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+
+if (!ADMIN_USERNAME || !ADMIN_PASSWORD) {
+  console.error("Missing ADMIN_USERNAME or ADMIN_PASSWORD environment variables.");
+  console.error("Set them in .env.local or pass them inline:");
+  console.error("  ADMIN_USERNAME=admin ADMIN_PASSWORD=secret npx tsx scripts/seed.ts");
+  process.exit(1);
+}
 
 // Resolve a translation key like "services.teide-cable-car.title" from the messages object
 function resolveKey(messages: Record<string, unknown>, key: string): string {
