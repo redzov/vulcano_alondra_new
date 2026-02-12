@@ -1079,6 +1079,8 @@
     "childrenCount": "{count} Kinder",
     "bookingConfirmed": "Buchung bestätigt!",
     "confirmationMessage": "Vielen Dank für Ihre Buchung. Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
-    "backToHome": "Zurück zur Startseite"
+    "backToHome": "Zurück zur Startseite",
+    "noTransfer": "Kein Transfer nötig — ich komme selbst dorthin",
+    "schedulingInfo": "Sobald Ihre Reservierung bestätigt ist, werden wir uns mit Ihnen in Verbindung setzen, um den Zeitplan, die Sprache des Reiseführers und alles Nötige für Ihren Besuch zu organisieren."
   }
 }

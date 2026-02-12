@@ -1079,6 +1079,8 @@
     "childrenCount": "{count} dzieci",
     "bookingConfirmed": "Rezerwacja potwierdzona!",
     "confirmationMessage": "Dziękujemy za rezerwację. Wkrótce otrzymasz e-mail z potwierdzeniem.",
-    "backToHome": "Wróć na stronę główną"
+    "backToHome": "Wróć na stronę główną",
+    "noTransfer": "Nie potrzebuję transferu — dotrę samodzielnie",
+    "schedulingInfo": "Po potwierdzeniu rezerwacji skontaktujemy się z Tobą, aby ustalić harmonogram, język przewodnika i wszystko, co potrzebne do Twojej wizyty."
   }
 }

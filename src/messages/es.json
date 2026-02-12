@@ -1079,6 +1079,8 @@
     "childrenCount": "{count} niños",
     "bookingConfirmed": "¡Reserva Confirmada!",
     "confirmationMessage": "Gracias por tu reserva. Recibirás un correo de confirmación en breve.",
-    "backToHome": "Volver al Inicio"
+    "backToHome": "Volver al Inicio",
+    "noTransfer": "No necesito transporte — llegaré por mi cuenta",
+    "schedulingInfo": "Una vez confirmada tu reserva, nos pondremos en contacto contigo para organizar el horario, el idioma del guía y todo lo necesario para tu visita."
   }
 }

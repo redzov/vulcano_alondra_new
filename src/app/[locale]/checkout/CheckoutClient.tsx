@@ -18,6 +18,7 @@ import {
   Calendar,
   Users,
   X,
+  Info,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -69,6 +70,7 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
   const [isGift, setIsGift] = useState(false);
   const [hotel, setHotel] = useState("");
   const [hotelOpen, setHotelOpen] = useState(false);
+  const [noTransfer, setNoTransfer] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState<string>("card");
   const [acceptTerms, setAcceptTerms] = useState(false);
   const [acceptMarketing, setAcceptMarketing] = useState(false);
@@ -97,7 +99,7 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
     if (!lastName.trim()) newErrors.lastName = true;
     if (!email.trim() || !email.includes("@")) newErrors.email = true;
     if (!phone.trim()) newErrors.phone = true;
-    if (hasPickup && !hotel) newErrors.hotel = true;
+    if (hasPickup && !noTransfer && !hotel) newErrors.hotel = true;
     if (!acceptTerms) newErrors.acceptTerms = true;
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -323,48 +325,76 @@ export default function CheckoutClient({ service }: CheckoutClientProps) {
                   {tc("pickupInfo")}
                 </h2>
 
-                <div>
-                  <label className="block text-sm font-medium text-text-primary mb-1.5">
-                    {tc("selectHotel")} <span className="text-volcano">*</span>
-                  </label>
-                  <div className="relative">
-                    <button
-                      onClick={() => setHotelOpen(!hotelOpen)}
-                      className={`w-full flex items-center justify-between h-11 px-4 rounded-xl border text-left text-sm transition-colors ${
-                        errors.hotel
-                          ? "border-red-400 ring-1 ring-red-400"
-                          : "border-gray-200 hover:border-gray-300"
-                      }`}
-                    >
-                      <span className={hotel ? "text-text-primary" : "text-gray-400"}>
-                        {hotel || tc("selectHotel")}
-                      </span>
-                      <ChevronDown className="h-4 w-4 text-gray-400" />
-                    </button>
-                    {hotelOpen && (
-                      <div className="absolute z-20 top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-xl shadow-lg max-h-60 overflow-y-auto">
-                        {HOTELS.map((h) => (
-                          <button
-                            key={h}
-                            onClick={() => {
-                              setHotel(h);
-                              setHotelOpen(false);
-                              setErrors((p) => ({ ...p, hotel: false }));
-                            }}
-                            className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-50 transition-colors ${
-                              hotel === h ? "bg-volcano/5 text-volcano font-medium" : "text-text-primary"
-                            }`}
-                          >
-                            {h}
-                          </button>
-                        ))}
-                      </div>
-                    )}
+                {/* No transfer checkbox */}
+                <label className="flex items-center gap-3 cursor-pointer mb-4">
+                  <Checkbox
+                    checked={noTransfer}
+                    onCheckedChange={(v) => {
+                      setNoTransfer(v === true);
+                      if (v === true) {
+                        setHotel("");
+                        setErrors((p) => ({ ...p, hotel: false }));
+                      }
+                    }}
+                    className="data-[state=checked]:bg-volcano data-[state=checked]:border-volcano"
+                  />
+                  <span className="text-sm font-medium text-text-primary">
+                    {tc("noTransfer")}
+                  </span>
+                </label>
+
+                {!noTransfer && (
+                  <div>
+                    <label className="block text-sm font-medium text-text-primary mb-1.5">
+                      {tc("selectHotel")}
+                    </label>
+                    <div className="relative">
+                      <button
+                        onClick={() => setHotelOpen(!hotelOpen)}
+                        className={`w-full flex items-center justify-between h-11 px-4 rounded-xl border text-left text-sm transition-colors ${
+                          errors.hotel
+                            ? "border-red-400 ring-1 ring-red-400"
+                            : "border-gray-200 hover:border-gray-300"
+                        }`}
+                      >
+                        <span className={hotel ? "text-text-primary" : "text-gray-400"}>
+                          {hotel || tc("selectHotel")}
+                        </span>
+                        <ChevronDown className="h-4 w-4 text-gray-400" />
+                      </button>
+                      {hotelOpen && (
+                        <div className="absolute z-20 top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-xl shadow-lg max-h-60 overflow-y-auto">
+                          {HOTELS.map((h) => (
+                            <button
+                              key={h}
+                              onClick={() => {
+                                setHotel(h);
+                                setHotelOpen(false);
+                                setErrors((p) => ({ ...p, hotel: false }));
+                              }}
+                              className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-50 transition-colors ${
+                                hotel === h ? "bg-volcano/5 text-volcano font-medium" : "text-text-primary"
+                              }`}
+                            >
+                              {h}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    {errors.hotel && <p className="text-xs text-red-500 mt-1">{tc("required")}</p>}
                   </div>
-                  {errors.hotel && <p className="text-xs text-red-500 mt-1">{tc("required")}</p>}
-                </div>
+                )}
               </div>
             )}
+
+            {/* Scheduling info block */}
+            <div className="bg-volcano/5 border border-volcano/10 rounded-2xl p-5 flex gap-3">
+              <Info className="h-5 w-5 text-volcano flex-shrink-0 mt-0.5" />
+              <p className="text-sm text-text-secondary leading-relaxed">
+                {tc("schedulingInfo")}
+              </p>
+            </div>
 
             {/* Payment Method */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">

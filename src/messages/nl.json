@@ -1079,6 +1079,8 @@
     "childrenCount": "{count} kinderen",
     "bookingConfirmed": "Boeking bevestigd!",
     "confirmationMessage": "Bedankt voor uw boeking. U ontvangt binnenkort een bevestigingsmail.",
-    "backToHome": "Terug naar home"
+    "backToHome": "Terug naar home",
+    "noTransfer": "Geen transfer nodig — ik kom er zelf",
+    "schedulingInfo": "Zodra uw reservering is bevestigd, nemen wij contact met u op om het schema, de taal van de gids en alles wat nodig is voor uw bezoek te regelen."
   }
 }
