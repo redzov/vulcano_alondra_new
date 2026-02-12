@@ -331,8 +331,6 @@ export const services: Service[] = [
     importantInfoKeys: [
       "services.sunset-and-stars.importantInfo.0",
       "services.sunset-and-stars.importantInfo.1",
-      "services.sunset-and-stars.importantInfo.2",
-      "services.sunset-and-stars.importantInfo.3",
     ],
     prepareKeys: [
       "services.sunset-and-stars.prepare.0",
@@ -393,7 +391,6 @@ export const services: Service[] = [
       "services.astronomical-observation.prepare.0",
       "services.astronomical-observation.prepare.1",
       "services.astronomical-observation.prepare.2",
-      "services.astronomical-observation.prepare.3",
     ],
     meetingPoint: "Teide Cable Car base station car park, TF-21 motorway km 43. Coordinates: 28.254448, -16.625747. Wait for a member of the Teide Explorer team at the closed access gate.",
     relatedSlugs: ["sunset-and-stars", "astronomic-tour", "mount-teide-night-tour"],
@@ -513,8 +510,6 @@ export const services: Service[] = [
       "services.teide-observatory-visit.restrictions.1",
       "services.teide-observatory-visit.restrictions.2",
       "services.teide-observatory-visit.restrictions.3",
-      "services.teide-observatory-visit.restrictions.4",
-      "services.teide-observatory-visit.restrictions.5",
     ],
     importantInfoKeys: [
       "services.teide-observatory-visit.importantInfo.0",
@@ -580,8 +575,6 @@ export const services: Service[] = [
       "services.astronomic-tour.restrictions.1",
       "services.astronomic-tour.restrictions.2",
       "services.astronomic-tour.restrictions.3",
-      "services.astronomic-tour.restrictions.4",
-      "services.astronomic-tour.restrictions.5",
     ],
     importantInfoKeys: [
       "services.astronomic-tour.importantInfo.0",
@@ -593,7 +586,6 @@ export const services: Service[] = [
       "services.astronomic-tour.prepare.1",
       "services.astronomic-tour.prepare.2",
       "services.astronomic-tour.prepare.3",
-      "services.astronomic-tour.prepare.4",
     ],
     meetingPoint: "Pick-up from hotels. Pick-up time varies between 2:15pm and 4:30pm depending on sunset time.",
     relatedSlugs: ["teide-observatory-visit", "astronomical-observation", "sunset-and-stars"],
@@ -652,7 +644,6 @@ export const services: Service[] = [
     ],
     prepareKeys: [
       "services.teide-legend.prepare.0",
-      "services.teide-legend.prepare.1",
     ],
     meetingPoint: "Teide Cable Car Visitors' Centre, TF-21 motorway, km 43 - Teide National Park. Open daily (except Christmas Day), 9:00am to 3:00pm (3:30pm during Holy Week).",
     relatedSlugs: ["teide-cable-car", "teide-tour-without-cable-car", "mount-teide-night-tour"],
@@ -707,8 +698,6 @@ export const services: Service[] = [
     ],
     importantInfoKeys: [
       "services.mount-teide-night-tour.importantInfo.0",
-      "services.mount-teide-night-tour.importantInfo.1",
-      "services.mount-teide-night-tour.importantInfo.2",
     ],
     prepareKeys: [
       "services.mount-teide-night-tour.prepare.0",
