@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import { Mountain, Home, Search, ArrowRight } from "lucide-react";
+import { Mountain, Home, ArrowRight } from "lucide-react";
 
 export default function NotFound() {
   return (

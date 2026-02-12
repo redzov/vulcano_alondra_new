@@ -4,8 +4,8 @@ import { hashPassword } from "../src/lib/auth";
 import { services } from "../src/lib/services";
 import en from "../src/messages/en.json";
 
-const ADMIN_USERNAME = process.env.ADMIN_USERNAME;
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const ADMIN_USERNAME: string = process.env.ADMIN_USERNAME ?? "";
+const ADMIN_PASSWORD: string = process.env.ADMIN_PASSWORD ?? "";
 
 if (!ADMIN_USERNAME || !ADMIN_PASSWORD) {
   console.error("Missing ADMIN_USERNAME or ADMIN_PASSWORD environment variables.");
