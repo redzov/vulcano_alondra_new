@@ -21,6 +21,35 @@ import ServiceCard from "@/components/services/ServiceCard";
 import StickyBookingBar from "@/components/services/StickyBookingBar";
 import type { Service } from "@/lib/services";
 
+/** Split a wall-of-text into readable paragraphs */
+function splitIntoParagraphs(text: string): string[] {
+  // Strip leading/trailing whitespace
+  const trimmed = text.trim();
+  if (!trimmed) return [];
+
+  // If text already has double-newline paragraph breaks, use them
+  if (trimmed.includes("\n\n")) {
+    return trimmed.split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
+  }
+
+  // If text has single newlines, use those
+  if (trimmed.includes("\n")) {
+    const parts = trimmed.split(/\n+/).map((p) => p.trim()).filter(Boolean);
+    if (parts.length > 1) return parts;
+  }
+
+  // Otherwise: auto-split long text every ~3-4 sentences
+  const sentences = trimmed.split(/(?<=\.)\s+(?=[A-Z])/);
+  if (sentences.length <= 4) return [trimmed];
+
+  const paragraphs: string[] = [];
+  const CHUNK = 4;
+  for (let i = 0; i < sentences.length; i += CHUNK) {
+    paragraphs.push(sentences.slice(i, i + CHUNK).join(" "));
+  }
+  return paragraphs;
+}
+
 interface TextOverrides {
   title?: string;
   shortDescription?: string;
@@ -166,10 +195,12 @@ export default function ServicePageClient({ service, relatedServices, textOverri
 
                 {/* Description Tab */}
                 <TabsContent value="description" className="mt-6">
-                  <div className="prose prose-gray max-w-none">
-                    <p className="text-text-secondary leading-relaxed text-base whitespace-pre-line">
-                      {text(textOverrides?.fullDescription, service.fullDescriptionKey)}
-                    </p>
+                  <div className="space-y-4">
+                    {splitIntoParagraphs(text(textOverrides?.fullDescription, service.fullDescriptionKey)).map((paragraph, i) => (
+                      <p key={i} className="text-text-secondary leading-relaxed text-base">
+                        {paragraph}
+                      </p>
+                    ))}
                   </div>
                 </TabsContent>
 
