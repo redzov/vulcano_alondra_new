@@ -39,11 +39,7 @@ const CATEGORY_KEYS = [
   "cable_car",
   "hiking",
   "stars",
-  "vip",
-  "kids",
   "observatory",
-  "groups",
-  "excursions",
   "independently",
 ] as const;
 
@@ -457,7 +453,9 @@ export default function ServicesListClient({
                 >
                   {t("hero.allCategories")}
                 </button>
-                {CATEGORY_KEYS.map((key) => (
+                {CATEGORY_KEYS.filter(
+                  (key) => services.some((s) => s.category === key)
+                ).map((key) => (
                   <button
                     key={key}
                     onClick={() => {

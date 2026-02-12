@@ -10,11 +10,7 @@ const categoryKeys = [
   "cable_car",
   "hiking",
   "stars",
-  "vip",
-  "kids",
   "observatory",
-  "groups",
-  "excursions",
   "independently",
 ] as const;
 
